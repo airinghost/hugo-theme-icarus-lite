@@ -27,7 +27,7 @@ Insert `<!--more-->` manually to your post or page file and it would look better
 
 PPOffice's awesome work on building such a beautiful theme for Hexo.
 
-Pedro Lopez's [*Creating a Hugo Theme From Scratch*](https://retrolog.io/blog/creating-a-hugo-theme-from-scratch/) guided me to the basis structure of a Hugo theme.
+Pedro Lopez's [*Creating a Hugo Theme From Scratch*](https://retrolog.io/blog/creating-a-hugo-theme-from-scratch/) guided me to the basic structure of a Hugo theme.
 
 Janne Kemppainen's [*Implemement Hugo List and Taxonomy Pages*](https://pakstech.com/blog/hugo-list-page/) helped me a lot on pagination.
 
@@ -36,6 +36,8 @@ Cai Jimmy's [Stack](https://github.com/CaiJimmy/hugo-theme-stack), a great card-
 Jeremy Thomas's [minireset.css](https://github.com/jgthms/minireset.css).
 
 filament group's [*The Simplest Way to Load CSS Asynchronously*](https://www.filamentgroup.com/lab/load-css-simpler/) and Sukka's [*Improve FCP for My Blog*](https://blog.skk.moe/post/improve-fcp-for-my-blog/). I learnt a way of loading CSS files asynchronously from their posts.
+
+thepeer's [solution](https://stackoverflow.com/questions/796087/make-a-div-into-a-link/3494108#3494108) for covering div with a link.
 
 
 ## P.S.
