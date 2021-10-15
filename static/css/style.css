@@ -1,0 +1,438 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+
+/*! common */
+article {
+  vertical-align: initial;
+}
+
+html {
+  background-color: white;
+}
+
+body {
+  color: rgb(74, 74, 74);
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5rem;
+}
+
+body, nav, main, footer, a, article, button {
+  font-family: "Barlow Semi Condensed", "Barlow Condensed", Optima, 思源宋体, "Source Han Serif SC", "Noto Serif CJK SC", "思源宋体 CN", "Source Han Serif CN", "Noto Serif SC", source-han-serif-sc, "Times New Roman", Times, 方正宋三简体, "Palatino Linotype", "Book Antiqua", Palatino, 新宋体, NSimSun, 方正书宋GBK, 宋体, SimSun, 华文宋体, STSong, "Songti SC", "Droid Serif", "Open Serif", -apple-system, BlinkMacSystemFont, serif, sans-serif-condensed, Tahoma, sans-serif;
+}
+
+.container {
+  flex-grow: 1;
+  margin: 0 auto;
+  padding: .9rem;
+  position: relative;
+  width: 100%;
+}
+
+
+a {
+    color: #3273dc;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+del {
+  text-decoration-line: line-through;
+  text-decoration-color: black;
+  text-decoration-style: solid;
+  text-decoration-thickness: 1px ;
+}
+
+hr {
+    border: 1px solid #f5f5f7;
+    box-shadow: none;
+    margin: .8rem 0 1rem 0;
+    background-color: #f5f5f7;
+}
+
+button span { 
+/* https://stackoverflow.com/questions/16913131/can-one-css-file-take-priority-over-another-css-file */
+  position: absolute; 
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+
+/*! navbar */
+nav {
+  background-color: white;
+  -webkit-box-shadow: rgb(0 0 0 / 10%) 0 4px 6px -1px;
+  box-shadow: rgb(0 0 0 / 10%) 0 4px 6px -1px;
+  display: block;
+  font-size: 1.2rem;
+  height: 3rem;
+  overflow-x: hidden;
+  position: sticky;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 10086;
+}
+
+nav .container {
+  overflow-x: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 1.15rem;
+  white-space: nowrap;
+}
+
+nav .logo {
+  align-items: center;
+  display: inline-flex;
+  color: red;
+  font-size: 1rem;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  vertical-align: middle;
+  height: 1.55rem;
+  width: 1.55rem;
+  margin-right: .5rem;
+}
+
+nav .menu {
+  align-items: center;
+  display: inline-flex;
+  color: red;
+  font-size: 1rem;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  vertical-align: middle;
+}
+
+nav .menu a {
+  color: black;
+  padding: 0 .3rem;
+}
+
+nav .menu a:hover {
+  background-color: #f5f5f7;
+}
+
+nav .menu a:active {
+  color: #06c;
+}
+
+nav button {
+  background-color: transparent;
+  border-width: 0;
+  border-color: transparent;
+  border-style: solid;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  display: inline-flex;
+  line-height: 3rem;
+  padding: 0;
+  position: relative;
+}
+
+
+/*! main section*/
+main {
+  background-color: #f5f5f7;
+
+}
+/*! main card section*/
+main .loading {
+  display: none;
+}
+
+main .container {
+  display: block;
+  padding-top: 1.2rem;
+  padding-bottom: .2rem;
+}
+
+main .container .card {
+  background-color: white;
+  border-radius: 0.55rem;
+  -webkit-box-shadow: rgb(0 0 0 / 10%) 0 4px 6px -1px, rgb(0 0 0 / 6%) 0 2px 4px -1px;
+  box-shadow: rgb(0 0 0 / 10%) 0 4px 6px -1px, rgb(0 0 0 / 6%) 0 2px 4px -1px;
+  color: black;
+  margin-bottom: 1.2rem;
+  max-width: 100%;
+  position: relative;
+}
+
+.card article {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  padding: .9rem;
+  text-align: justify;
+}
+
+.card article time {
+  color: #4a4a4a;
+  font-size: .75em;
+}
+
+.card article time.time-invisible {
+  display: none;
+}
+
+.card article h2 {
+  color: #4a4a4a;
+  font-size: 1.2em;
+  margin-bottom: .55rem;
+}
+
+article button {
+  background-color: #f5f5f7;
+  border-width: .2rem;
+  border-color: transparent;
+  border-radius: 0.35rem;
+  border-style: solid;
+  border-width: 1px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  display: inline-flex;
+  line-height: 1.65rem;
+  margin-top: .85rem;
+  position: relative;
+}
+
+article button:hover {
+  background-color: #eeeeee;
+}
+
+article button:active {
+  background-color: #bebebe;
+}
+
+article button a {
+  color: #1d1d1d;
+  font-size: .9rem;
+}
+
+article blockquote {
+  background-color: #f5f5f7;
+  border-left: 4px solid #dbdbdb;
+  margin-bottom: .6em;
+  margin-top: .3em;
+  padding: .5em;
+  text-align: left;
+}
+
+article code {
+  background-color: #f5f5f5;
+  border-radius: .3em;
+  font-family: "Courier New", Courier, monospace, serif, sans-serif;
+  font-size: .9rem;
+  padding: .1em .2em;
+}
+
+article ul {
+  list-style: disc;
+  margin-inline-start: 1em;
+}
+
+article ol {
+  margin-inline-start: 1em;
+}
+
+
+/*! main pagination section */
+main .container .pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  margin-bottom: .75rem;
+  padding: 0 0 .4rem 0;
+}
+
+.pagination .page-num {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pagination button {
+  background-color: white;
+  border-color: transparent;
+  border-radius: 0.35rem;
+  border-style: solid;
+  border-width: 1px;
+  -webkit-box-shadow: rgb(0 0 0 / 10%) 0 4px 6px -1px, rgb(0 0 0 / 6%) 0 2px 4px -1px;
+  box-shadow: rgb(0 0 0 / 10%) 0 4px 6px -1px, rgb(0 0 0 / 6%) 0 2px 4px -1px;
+  display: inline-flex;
+  line-height: 2.25rem;
+  position: relative;
+}
+
+.pagination button.button-invisible {
+  visibility: hidden!important;
+}
+
+.pagination button:active {
+  background-color: #f5f5f7;
+}
+
+.pagination button a {
+  color: black;
+  font-size: 1rem;
+}
+
+
+/*! footer */
+footer {
+  display: block;
+}
+
+footer .container {
+  color: #4a4a4a;
+  font-size: .8em;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+footer .container .icp span {
+  margin-right: .2em;
+}
+
+footer .container a {
+  color: inherit;
+}
+
+/*! flex container */
+@media (max-width:640px) {
+  .container {
+    width: 100%;
+  }
+}
+@media (max-width:1024px) and (min-width:641px) {
+  .container {
+    width: 620px;
+  }
+  .card article {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width:1280px) and (min-width:1025px) {
+  .container {
+    width: 720px;
+  }
+  .card article {
+    font-size: 1.125rem;
+  }
+}
+@media (max-width:1920px) and (min-width:1281px) {
+  .container {
+    width: 810px;
+  }
+  .card article {
+    font-size: 1.15rem;
+  }
+}
+@media (min-width:1921px) {
+  .container {
+    width: 1000px;
+  }
+  .card article {
+    font-size: 1.2rem;
+  }
+}
+
+
+
+/*! custom css */
+article .text blockquote p txt-s {
+  text-transform: uppercase;
+}
+
+article .text p txt-s {
+  text-transform: none;
+  text-align: left;
+  font-size: .85em;
+}
+
+gmail-com {
+  display: none;
+}

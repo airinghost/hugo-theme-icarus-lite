@@ -1,0 +1,64 @@
+
+## If you have created a new hugo site and dont know how to do next, just DELETE config.toml file at its root directory and copy THIS file into it. And the whole hugo-theme-icarus-lite folder should be put in /themes/ folder. 
+## Your posts files should be in /content/posts/ folder. See the params mainSections: config below.
+
+
+baseURL: https://yourDomain.com/
+
+## would show at <head> section in html files
+languageCode: zh-CN   
+
+theme: hugo-theme-icarus-lite
+
+title: yourSiteTitle
+
+hasCJKLanguage: true
+summaryLength: 1000
+paginate: 7
+
+permalinks:
+  posts: /:year/:title/
+  pages: /:section/:filename/
+
+
+## cunstom params
+params:
+    footerCopyright: 
+        ## would show after footer text "© 2021"
+        siteUrl: yourSite.com or yourName
+    ## at /themes/hugo-theme-icarus-lite/static/ 
+    logo: "/favicon.png"
+    ## means that you need to put posts .md files in the folder /content/posts/ , these files would be viewed at Homepage.
+    mainSections:
+        - posts    
+
+## buttons text
+    PageBack: "Back to Prev Page"
+    OlderPosts: "Older Page"
+    NewerPosts: "Newer Page"
+    read_more: "Read More"
+
+## for websites hosted on mainland China servers. Just DELETE this part if no need
+    ICP: 
+        province: 京
+        certnum: 00000000
+
+
+## navbar menus
+menu:
+    main:
+        - identifier: home
+          name: HOME
+          url: /
+          weight: 1
+        - identifier: pages
+          name: PAGES
+          url: /pages/
+          weight: 2
+
+
+markup:
+    goldmark:
+        renderer:
+            ## Set to true if you have HTML content inside Markdown
+            unsafe: true

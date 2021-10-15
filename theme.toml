@@ -1,0 +1,6 @@
+name = "hugo-theme-icarus-lite"
+license = "MIT"
+licenselink = "https://github.com/airinghost/hugo-theme-icarus-lite/blob/master/LICENSE"
+description = "An one-column and card-style Hugo theme based on the Hexo theme Icarus"
+homepage = "https://github.com/airinghost/hugo-theme-icarus-lite/"
+min_version = "0.0.1"

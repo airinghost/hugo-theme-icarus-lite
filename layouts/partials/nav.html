@@ -1,0 +1,14 @@
+{{ if .Site.Params.logo }}
+<div class="logo">
+    <img src="{{ $.Site.Params.logo }}" loading="lazy" width="22" height="22" alt="LOGO">
+</div>
+{{ end }}
+
+{{ range .Site.Menus.main }}
+<button class="menu">
+    <a href="{{ .URL }}"><span></span>
+        {{ $text := print .Name | safeHTML }}
+        {{ $text }}
+    </a>
+</button>
+{{ end }}

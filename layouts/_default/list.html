@@ -1,0 +1,23 @@
+{{ define "main" }}
+{{ range .Paginator.Pages.ByPublishDate.Reverse }}
+<div class="card">
+    <article>
+        {{ if .Params.date_hidden }}
+        {{ else }}
+        {{ $dateTime := .PublishDate.Format "2006-01-02" }}
+        {{ $dateFormat := .Site.Params.dateFormat | default "Jan 02, 2006" }}
+        <time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time>
+        {{ end }}
+        <h2>{{ .Title }}</h2>
+        <div class="text">{{ .Summary }}</div>
+        {{ if .Params.read_more }}
+        <button class="button-more"><a href="{{.RelPermalink}}"><span></span>{{ $.Site.Params.read_more }}</a></button>
+        {{ end }}
+    </article>
+</div>
+{{ end }}
+
+{{ if (or ( .Paginator.HasNext ) ( .Paginator.HasPrev )) }}
+    {{ partial "pagination.html" . }}
+{{ end }}
+{{ end }}

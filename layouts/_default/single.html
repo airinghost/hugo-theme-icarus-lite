@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="card">
+    <article>
+        {{ if .Params.date_hidden }}
+        {{ else }}
+        {{ $dateTime := .PublishDate.Format "2006-01-02" }}
+        {{ $dateFormat := .Site.Params.dateFormat | default "Jan 02, 2006" }}
+        <time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time>
+        {{ end }}
+        <h2>{{ .Title }}</h2>
+        <div class="text">{{ .Content }}</div>
+    </article>
+</div>
+
+{{ if .Params.read_more }}
+<div class="pagination">
+    <button class="page-back">
+        <a href="javascript:history.back();"><span></span>{{ $.Site.Params.PageBack }}</a>
+    </button>
+    {{ end }}
+{{ end }}
