@@ -1,31 +1,38 @@
 
-
 # Icarus-Lite
 
 This is an one-column and card-style Hugo theme based on the Hexo theme [Icarus](https://github.com/ppoffice/hexo-theme-icarus).
 
 
-## Documentation
+## 1. Documentation
 
-No Docs.
+No Docs now.
 
 Please don't hesitate to start a discussion in this repo if any questions or problems.
 
+Issues also welcomed if any bugs found.
 
-## Tips
 
-Set `hidden: true`(YAML) / `hidden = true`(TOML) at `Front Matter` to hide it from the Homepage view (i.e. posts using index template).
 
-Set `date_hidden: true` to remove the date text and its structure from the top left-hand of the article card in index or list views.
+## 2. Tips
 
-Set `link_go: http://example.com` and `link_txt: ButtonText` to add a Button at the bottom left-hand of the article card in index or list views; it would open the link you set in a new tab in the browser.
+### 2.1 Front Matter
+
+Set `hidden: true` (YAML) / `hidden = true` (TOML) to hide the file from the index (homepage) view (i.e. posts using index template).
+
+Set `date_hidden: true` to remove the date text & structure from the top left-hand of the article card in index or list views.
+
+Set `link_go: http://example.com` and `link_txt: customText` to add a button at the bottom left-hand of the article card in index or list views; it would open the link you set in a new tab in the browser.
+
+Set `read_more_txt: customText` to overwrite the text for read-more button in Site Config - Params.
+
+### 2.2 Body Text
 
 Insert `<!--more-->` manually to your post or page file and it would look better. Or Set `summaryLength: 1000` or more in Site Config and then insert `<!--more-->` at the end of the `.md` file if you would not like to make a summary of your posts or pages.
 
-...
 
 
-## Acknowledgments
+## 3. Acknowledgments
 
 PPOffice's awesome work on building such a beautiful theme for Hexo.
 
@@ -40,6 +47,7 @@ Jeremy Thomas's [minireset.css](https://github.com/jgthms/minireset.css).
 filament group's [*The Simplest Way to Load CSS Asynchronously*](https://www.filamentgroup.com/lab/load-css-simpler/) and Sukka's [*Improve FCP for My Blog*](https://blog.skk.moe/post/improve-fcp-for-my-blog/). I learnt a way of loading CSS files asynchronously from their posts.
 
 thepeer's [solution](https://stackoverflow.com/questions/796087/make-a-div-into-a-link/3494108#3494108) for covering div with a link.
+
 
 
 ## P.S.
