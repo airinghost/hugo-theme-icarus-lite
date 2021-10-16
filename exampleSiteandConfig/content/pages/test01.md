@@ -5,6 +5,4 @@ read_more: true
 summary: The button below is Read More.
 ---
 
-<!--more-->
-
 The button below is Back to Previous Page.
