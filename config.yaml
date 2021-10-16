@@ -21,7 +21,7 @@ permalinks:
   pages: /:section/:filename/
 
 
-## cunstom params
+## custom params
 params:
     footerCopyright: 
         ## would show after footer text "© 2021"
