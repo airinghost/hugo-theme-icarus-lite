@@ -13,6 +13,9 @@
         {{ if .Params.read_more }}
         <button class="button-more"><a href="{{.RelPermalink}}"><span></span>{{ $.Site.Params.read_more }}</a></button>
         {{ end }}
+        {{ if .Params.link_go }}
+        <button class="button-link"><a href="{{ .Params.link_go }}" target="_blank" rel="noopener"><span></span>{{ .Params.link_txt }}</a></button>
+        {{ end }}
     </article>
 </div>
 {{ end }}

@@ -18,7 +18,9 @@ Set `hidden: true`(YAML) / `hidden = true`(TOML) at `Front Matter` to hide it fr
 
 Set `date_hidden: true` to remove the date text and its structure from the top left-hand of the article card in index or list views.
 
-Insert `<!--more-->` manually to your post or page file and it would look better. Or Set `summaryLength: 1000` or more in Site Config and then insert `<!--more-->` at the end of the post or page file if you would not like to make a summary.
+Set `link_go: http://example.com` and `link_txt: ButtonText` to add a Button at the bottom left-hand of the article card in index or list views; it would open the link you set in a new tab in the browser.
+
+Insert `<!--more-->` manually to your post or page file and it would look better. Or Set `summaryLength: 1000` or more in Site Config and then insert `<!--more-->` at the end of the `.md` file if you would not like to make a summary of your posts or pages.
 
 ...
 
