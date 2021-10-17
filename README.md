@@ -20,7 +20,7 @@ Issues also welcomed if any bugs found.
 
 Set `hidden: true` (YAML) / `hidden = true` (TOML) to hide the file from the index (homepage) view (i.e. posts using index template).
 
-Set `date_hidden: true` to remove the date text & structure from the top left-hand of the article card in index or list views.
+Set `date_hidden: true` to remove the date text & structure from the top left-hand of the article card in index, list and single views.
 
 Set `link_go: http://example.com` and `link_txt: customText` to add a button at the bottom left-hand of the article card in index or list views; it would open the link you set in a new tab in the browser.
 
