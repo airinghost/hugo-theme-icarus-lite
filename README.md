@@ -24,11 +24,13 @@ Set `date_hidden: true` to remove the date text & structure from the top left-ha
 
 Set `link_go: http://example.com` and `link_txt: customText` to add a button at the bottom left-hand of the article card in index or list views; it would open the link you set in a new tab in the browser.
 
-Set `read_more_txt: customText` to overwrite the text for read-more button in Site Config - Params.
+Set `read_more: true` to add a button at the bottom left-hand of the article card in index or list views; the button text is set in Site Config - Params, you can change it globally.
+
+Set `read_more_txt: customText` to overwrite the text for the read-more button mentioned above.
 
 ### 2.2 Body Text
 
-Insert `<!--more-->` manually to your post or page file and it would look better. Or Set `summaryLength: 1000` or more in Site Config and then insert `<!--more-->` at the end of the `.md` file if you would not like to make a summary of your posts or pages.
+Insert `<!--more-->` manually to your post or page file and it would look better. Or Set `summaryLength: 1000` or more in Site Config and then insert `<!--more-->` at the end of the `.md` file if you would not like to make a summary of your posts or pages. 
 
 
 
