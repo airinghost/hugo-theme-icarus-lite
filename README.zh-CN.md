@@ -42,7 +42,7 @@
 
 ## 3. 致谢
 
-感谢 PPOffice 为 Hexo 制作的如此美观的主题.
+感谢 PPOffice 为 Hexo 制作的如此美观的主题。
 
 感谢 Pedro Lopez 的教程 《[Creating a Hugo Theme From Scratch](https://retrolog.io/blog/creating-a-hugo-theme-from-scratch/)》，该文指导我初步了解了 Hugo 主题模板的基本结构。
 
@@ -54,7 +54,7 @@
 
 感谢 filament group 的文章 《[The Simplest Way to Load CSS Asynchronously](https://www.filamentgroup.com/lab/load-css-simpler/)》和苏卡卡的《[再快一点，再快一点 —— 优化博客白屏时间的实践](https://blog.skk.moe/post/improve-fcp-for-my-blog/)》。我从他们的文章中学到了如何异步加载 CSS 文件及其原理。
 
-感谢 thepeer's [答疑](https://stackoverflow.com/questions/796087/make-a-div-into-a-link/3494108#3494108)，该回答的方法帮我实现了我解决不了的“将超链接覆盖至整个容器内”这一难点。
+感谢 thepeer 的[答疑](https://stackoverflow.com/questions/796087/make-a-div-into-a-link/3494108#3494108)，该回答的方法帮我实现了我解决不了的“将超链接覆盖至整个容器内”这一难点。
 
 感谢腾讯的[404公益](https://wj.qq.com/s2/9163450/732e/)项目
 
