@@ -2,7 +2,7 @@
 # <div align="center"><img align="center" width="48" height="48" src="https://cdn.jsdelivr.net/gh/airinghost/hugo-theme-icarus-lite/static/favicon.png">&nbsp;Icarus-Lite</div>
 
 <p align="center">
-	An one-column and card-style Hugo theme based on the Hexo theme<a href="https://github.com/ppoffice/hexo-theme-icarus"> Icarus</a>
+	A one-column and card-style Hugo theme based on the Hexo theme<a href="https://github.com/ppoffice/hexo-theme-icarus"> Icarus</a>
 </p>
 <p align="center">
 	<a href="README.zh-CN.md">中文（简体）说明</a>
