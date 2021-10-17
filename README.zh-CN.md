@@ -1,8 +1,8 @@
 
-# <div align="center"><img align="center" width="50" height="50" src="https://cdn.jsdelivr.net/gh/airinghost/hugo-theme-icarus-lite/static/favicon.png">Icarus-Lite</div>
+# <div align="center"><img align="center" width="48" height="48" src="https://cdn.jsdelivr.net/gh/airinghost/hugo-theme-icarus-lite/static/favicon.png">&nbsp;Icarus-Lite</div>
 
 <p align="center">
-	这是一个基于 Hexo 主题<a href="https://github.com/ppoffice/hexo-theme-icarus"> Icarus </a>的样式制作的单栏、卡片式的 Hugo 主题。
+	一款基于 Hexo 主题<a href="https://github.com/ppoffice/hexo-theme-icarus"> Icarus </a>的样式制作的单栏、卡片式的 Hugo 主题
 </p>
 <p align="center">
 	<a href="README.md">English</a>
@@ -60,7 +60,7 @@
 
 
 
-## P.S.
+## 其他
 
 得益于 Hugo 的 `list.html` 模板，我们可以很方便地在处了主页外的其他目录也用上主页布局。但如果你在使用 Hexo 的同时也想要实现这项功能，那么我推荐 Jamling 的这个项目：[`hexo-generator-index2`](https://github.com/Jamling/hexo-generator-index2)。
 
