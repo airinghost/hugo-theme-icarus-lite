@@ -1,16 +1,22 @@
 
-# Icarus-Lite
+# <div align="center"><img align="center" width="50" height="50" src="https://cdn.jsdelivr.net/gh/airinghost/hugo-theme-icarus-lite/static/favicon.png">Icarus-Lite</div>
 
-This is an one-column and card-style Hugo theme based on the Hexo theme [Icarus](https://github.com/ppoffice/hexo-theme-icarus).
+<p align="center">
+	This is an one-column and card-style Hugo theme based on the Hexo theme<a href="https://github.com/ppoffice/hexo-theme-icarus"> Icarus</a>.
+</p>
+<p align="center">
+	<a href="README.zh-CN.md">中文（简体）说明</a>
+</p>
+
 
 
 ## 1. Documentation
 
 No Docs now.
 
-Please don't hesitate to start a discussion in this repo if any questions or problems.
+Please don't hesitate to start [Discussions](https://github.com/airinghost/hugo-theme-icarus-lite/discussions) in this repo if any questions or problems.
 
-Issues also welcomed if any bugs found.
+[Issues](https://github.com/airinghost/hugo-theme-icarus-lite/issues) also welcomed if any bugs found.
 
 
 
@@ -22,11 +28,11 @@ Set `hidden: true` (YAML) / `hidden = true` (TOML) to hide the file from the ind
 
 Set `date_hidden: true` to remove the date text & structure from the top left-hand of the article card in index, list and single views.
 
-Set `link_go: http://example.com` and `link_txt: customText` to add a button at the bottom left-hand of the article card in index or list views; it would open the link you set in a new tab in the browser.
-
 Set `read_more: true` to add a button at the bottom left-hand of the article card in index or list views; the button text is set in Site Config - Params, you can change it globally.
 
 Set `read_more_txt: customText` to overwrite the text for the read-more button mentioned above.
+
+Set `link_go: http://example.com` and `link_txt: customText` to add a button at the bottom left-hand of the article card in index or list views; it would open the link you set in a new tab in the browser.
 
 ### 2.2 Body Text
 
@@ -56,6 +62,6 @@ Tencent's [404 project](https://wj.qq.com/s2/9163450/732e/).
 
 ## P.S.
 
-If you are searching for the way to make Hexo generate pages like Hugo's list template, then I would like to recommend Jamling's work [`hexo-generator-index2`](https://github.com/Jamling/hexo-generator-index2).
+Hugo's `list.html` template enables us to build a list page in index(homepage) view. So if you are searching for the way to make Hexo generate pages like Hugo's list template, then I would like to recommend Jamling's work [`hexo-generator-index2`](https://github.com/Jamling/hexo-generator-index2).
 
 
