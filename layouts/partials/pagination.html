@@ -5,7 +5,9 @@
         <a href="{{ .Paginator.Prev.URL }}"><span></span>{{ $.Site.Params.NewerPosts }}</a>
     </button>
     {{ else }}
-    <button class="page-newer button-invisible">{{ $.Site.Params.NewerPosts }}</button>
+    <button class="page-newer button-invisible">
+        <a><span></span>{{ $.Site.Params.NewerPosts }}</a>
+    </button>
     {{ end }}
 
     <div class="page-num">
@@ -17,6 +19,8 @@
         <a href="{{ .Paginator.Next.URL }}"><span></span>{{ $.Site.Params.OlderPosts }}</a>
     </button>
     {{ else }}
-    <button class="page-older button-invisible">{{ $.Site.Params.OlderPosts }}</button>
+    <button class="page-older button-invisible">
+        <a><span></span>{{ $.Site.Params.OlderPosts }}</a>
+    </button>
     {{ end }}
 </div>
