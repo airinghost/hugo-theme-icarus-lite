@@ -261,7 +261,7 @@ main .container .card {
   margin-bottom: .55rem;
 }
 
-article button {
+article a.button {
   background-color: #f5f5f7;
   border: 1px solid transparent;
   border-radius: 0.35rem;
@@ -273,18 +273,18 @@ article button {
   position: relative;
 }
 
-article button:hover {
+article a:hover {
   background-color: #eeeeee;
 }
 
-article button:active {
+article a:active {
   background-color: #bebebe;
 }
 
-article button a {
+article a.button {
   color: #1d1d1d;
   font-size: .9rem;
-  padding: .15rem 0 0 0;
+  padding: .1rem .35rem 0 .35rem;
 }
 
 article blockquote {
@@ -331,7 +331,7 @@ main .container .pagination {
   margin-right: auto;
 }
 
-.pagination button {
+.pagination a {
   background-color: white;
   border-color: transparent;
   border-radius: 0.35rem;
@@ -339,20 +339,21 @@ main .container .pagination {
   border-width: 1px;
   -webkit-box-shadow: rgb(0 0 0 / 10%) 0 4px 6px -1px, rgb(0 0 0 / 6%) 0 2px 4px -1px;
   box-shadow: rgb(0 0 0 / 10%) 0 4px 6px -1px, rgb(0 0 0 / 6%) 0 2px 4px -1px;
-  display: inline-flex;
+  display: inline-block;
   line-height: 2.25rem;
   position: relative;
+  padding: .1rem .35rem 0 .35rem;
 }
 
-.pagination button.button-invisible {
+.pagination a.button-invisible {
   visibility: hidden!important;
 }
 
-.pagination button:active {
+.pagination a:active {
   background-color: #f5f5f7;
 }
 
-.pagination button a {
+.pagination a {
   color: black;
   font-size: 1rem;
 }

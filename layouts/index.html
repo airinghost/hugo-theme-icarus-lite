@@ -9,22 +9,23 @@
         {{ if .Params.date_hidden }}
         {{ else }}
         {{ $dateTime := .PublishDate.Format "2006-01-02" }}
-        {{ $dateFormat := .Site.Params.dateFormat | default "Jan 02, 2006" }}
+        {{ $dateFormat := .Site.Params.dateFormat | default "2006" }}
         <time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time>
         {{ end }}
         <h2>{{ .Title }}</h2>
         <div class="text">{{ .Summary }}</div>
         {{ if .Params.read_more }}
-        <button class="button-more">
+        <a class="button" href="{{.RelPermalink}}">
             {{ if .Params.read_more_txt }}
-            <a href="{{.RelPermalink}}"><span></span>{{ .Params.read_more_txt }}</a>
+            {{ .Params.read_more_txt }}
+        </a>
             {{ else }}
-            <a href="{{.RelPermalink}}"><span></span>{{ $.Site.Params.read_more }}</a>
+            {{ $.Site.Params.read_more }}
+        </a>
             {{ end }}
-        </button>
         {{ end }}
         {{ if .Params.link_go }}
-        <button class="button-link"><a href="{{ .Params.link_go }}" target="_blank" rel="noopener"><span></span>{{ .Params.link_txt }}</a></button>
+        <a class="button" href="{{ .Params.link_go }}" target="_blank" rel="noopener"><span></span>{{ .Params.link_txt }}</a>
         {{ end }}
     </article>
 </div>

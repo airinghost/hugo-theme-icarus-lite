@@ -1,13 +1,9 @@
 
 <div class="pagination">
     {{ if .Paginator.HasPrev }}
-    <button class="page-newer">
-        <a href="{{ .Paginator.Prev.URL }}"><span></span>{{ $.Site.Params.NewerPosts }}</a>
-    </button>
+        <a class="page-newer" href="{{ .Paginator.Prev.URL }}"><span></span>{{ $.Site.Params.NewerPosts }}</a>
     {{ else }}
-    <button class="page-newer button-invisible">
-        <a><span></span>{{ $.Site.Params.NewerPosts }}</a>
-    </button>
+        <a class="page-newer button-invisible"><span></span>{{ $.Site.Params.NewerPosts }}</a>
     {{ end }}
 
     <div class="page-num">
@@ -15,12 +11,8 @@
     </div>
 
     {{ if .Paginator.HasNext }}
-    <button class="page-older">
-        <a href="{{ .Paginator.Next.URL }}"><span></span>{{ $.Site.Params.OlderPosts }}</a>
-    </button>
+        <a class="page-older" href="{{ .Paginator.Next.URL }}"><span></span>{{ $.Site.Params.OlderPosts }}</a>
     {{ else }}
-    <button class="page-older button-invisible">
-        <a><span></span>{{ $.Site.Params.OlderPosts }}</a>
-    </button>
+        <a class="page-older button-invisible"><span></span>{{ $.Site.Params.OlderPosts }}</a>
     {{ end }}
 </div>
