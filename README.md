@@ -48,7 +48,7 @@ Pedro Lopez's [*Creating a Hugo Theme From Scratch*](https://retrolog.io/blog/cr
 
 Janne Kemppainen's [*Implemement Hugo List and Taxonomy Pages*](https://pakstech.com/blog/hugo-list-page/) helped me a lot on pagination.
 
-Cai Jimmy's [Stack](https://github.com/CaiJimmy/hugo-theme-stack), a great card-style Hugo theme I likes very much. And I made a use of some codes from his work, such as the main section at index template.
+Cai Jimmy's [Stack](https://github.com/CaiJimmy/hugo-theme-stack), a great card-style Hugo theme I like very much. And I made a use of some codes from his work, such as the main section at index template.
 
 Jeremy Thomas's [minireset.css](https://github.com/jgthms/minireset.css).
 
