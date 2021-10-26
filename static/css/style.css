@@ -297,11 +297,11 @@ article code {
 
 article ul {
   list-style: disc;
-  margin-inline-start: 1em;
+  margin-left: 1em;
 }
 
 article ol {
-  margin-inline-start: 1em;
+  margin-left: 1em;
 }
 
 
