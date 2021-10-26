@@ -32,7 +32,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-size: 100%;
+  /* font-size: 100%; */
   font-weight: normal;
 }
 
@@ -230,25 +230,43 @@ main .container .card {
   position: relative;
 }
 
-.card article {
+article {
   font-size: 1.1rem;
   line-height: 1.5;
   padding: .9rem;
   text-align: justify;
 }
 
-.card article time {
+article time {
   color: #4a4a4a;
   font-size: .75em;
 }
 
-.card article time.time-invisible {
+article time.time-invisible {
   display: none;
 }
 
-.card article h2 {
+article h1 {
   color: #4a4a4a;
-  font-size: 1.2em;
+  font-soze: 1.5em;
+  margin-bottom: .55rem;
+}
+
+article h2 {
+  color: #4a4a4a;
+  font-size: 1.375em;
+  margin-bottom: .55rem;
+}
+
+article h3 {
+  color: #4a4a4a;
+  font-size: 1.17em;
+  margin-bottom: .55rem;
+}
+
+article h4 {
+  color: #4a4a4a;
+  font-size: 1.05em;
   margin-bottom: .55rem;
 }
 
