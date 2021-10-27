@@ -92,7 +92,7 @@ body {
 }
 
 body, nav, main, footer, a, article, button {
-  font-family: "Barlow Semi Condensed", "Barlow Condensed", Optima, 思源宋体, "Source Han Serif SC", "Noto Serif CJK SC", "思源宋体 CN", "Source Han Serif CN", "Noto Serif SC", source-han-serif-sc, "Times New Roman", Times, 方正宋三简体, "Palatino Linotype", "Book Antiqua", Palatino, 新宋体, NSimSun, 方正书宋GBK, 宋体, SimSun, 华文宋体, STSong, "Songti SC", "Droid Serif", "Open Serif", -apple-system, BlinkMacSystemFont, serif, sans-serif-condensed, Tahoma, sans-serif;
+  font-family: 'Times New Roman', Times, 'Palatino Linotype', 'Book Antiqua', Palatino, -apple-system, BlinkMacSystemFont, 'Droid Serif', 'Open Serif', Tahoma, serif, sans-serif;
 }
 
 .container {
@@ -248,25 +248,25 @@ article time.time-invisible {
 
 article h1 {
   color: #4a4a4a;
-  font-soze: 1.5em;
+  font-soze: 1.375em;
   margin-bottom: .55rem;
 }
 
 article h2 {
   color: #4a4a4a;
-  font-size: 1.375em;
+  font-size: 1.3em;
   margin-bottom: .55rem;
 }
 
 article h3 {
   color: #4a4a4a;
-  font-size: 1.17em;
+  font-size: 1.2em;
   margin-bottom: .55rem;
 }
 
 article h4 {
   color: #4a4a4a;
-  font-size: 1.05em;
+  font-size: 1.1em;
   margin-bottom: .55rem;
 }
 
@@ -287,7 +287,7 @@ article a:hover {
 }
 
 article a:active {
-  background-color: #bebebe;
+  background-color: #d6d6d6;
 }
 
 article a.button {
@@ -430,12 +430,3 @@ footer .container a {
 
 
 /*! custom css */
-article .text blockquote p txt-s {
-  text-transform: uppercase;
-}
-
-article .text p txt-s {
-  text-transform: none;
-  text-align: left;
-  font-size: .85em;
-}
