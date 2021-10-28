@@ -5,7 +5,7 @@
 {{ end }}
 
 {{ range .Site.Menus.main }}
-<a class="menu" href="{{ .URL }}">
+<a href="{{ .URL }}">
     {{ $text := print .Name | safeHTML }}
     {{ $text }}
 </a>
