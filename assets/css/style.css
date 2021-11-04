@@ -1,78 +1,47 @@
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
-html,
-body,
-p,
-ol,
-ul,
-li,
-dl,
-dt,
-dd,
-blockquote,
-figure,
-fieldset,
-legend,
-textarea,
-pre,
-iframe,
-hr,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  padding: 0;
+html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  /* font-size: 100%; */
-  font-weight: normal;
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 400;
 }
 
 ul {
-  list-style: none;
+    list-style: none;
 }
 
-button,
-input,
-select {
-  margin: 0;
+button,input,select {
+    margin: 0;
 }
 
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
+*,*::before,*::after {
+    box-sizing: inherit;
 }
 
-img,
-video {
-  height: auto;
-  max-width: 100%;
+img,video {
+    height: auto;
+    max-width: 100%;
 }
 
 iframe {
-  border: 0;
+    border: 0;
 }
 
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
-td,
-th {
-  padding: 0;
+td,th {
+    padding: 0;
 }
+
 
 
 /*! common */
@@ -91,11 +60,8 @@ body {
   line-height: 1.5rem;
 }
 
-body, nav, main, footer, article, button {
-  font-family: 'Times New Roman', Times, 'Palatino Linotype', 'Book Antiqua', Palatino, -apple-system, BlinkMacSystemFont, 'Droid Serif', 'Open Serif', Tahoma, serif, sans-serif;
-}
-
 .container {
+  font-family: 'Palatino Linotype', Optima, 'Book Antiqua', Palatino, 'Gill Sans MT', 'Arial Narrow', 'PingFang SC', -apple-system, BlinkMacSystemFont, 'Source Han Serif SC', 'Noto Serif CJK SC', 'Source Han Serif CN', 'Noto Serif SC', source-han-serif-sc, system-ui, 'Helvetica Neue', 'Helvetica', Tahoma, 'Microsoft YaHei', 'Droid Serif', 'Open Serif', sans-serif, serif;
   flex-grow: 1;
   margin: 0 auto;
   padding: .9rem;
@@ -103,10 +69,13 @@ body, nav, main, footer, article, button {
   width: 100%;
 }
 
-
 a {
     color: #3273dc;
     cursor: pointer;
+    text-decoration: none;
+}
+
+a:visited {
     text-decoration: none;
 }
 
@@ -184,16 +153,14 @@ nav a:hover {
 }
 
 nav a.menu-active {
-  color: #06c;
+  color: #3273dc;
 }
 
 
 /*! main section*/
 main {
   background-color: #f5f5f7;
-
 }
-/*! main card section*/
 main .loading {
   display: none;
 }
@@ -204,7 +171,9 @@ main .container {
   padding-bottom: .2rem;
 }
 
-main .container .card {
+
+/*! main card section*/
+main .card {
   background-color: white;
   border-radius: 0.55rem;
   -webkit-box-shadow: rgb(0 0 0 / 10%) 0 4px 6px -1px, rgb(0 0 0 / 6%) 0 2px 4px -1px;
@@ -299,17 +268,17 @@ article code {
 }
 
 article ul {
-  list-style: disc;
-  margin-left: 1em;
+  list-style: circle;
+  margin-left: 1.1em;
 }
 
 article ol {
-  margin-left: 1em;
+  margin-left: 1.1em;
 }
 
 
 /*! main pagination section */
-main .container .pagination {
+main .pagination {
   display: flex;
   justify-content: center;
   margin-bottom: .75rem;
@@ -343,6 +312,10 @@ main .container .pagination {
   visibility: hidden!important;
 }
 
+.pagination a:hover {
+  background-color: #fcfcfc;
+}
+
 .pagination a:active {
   background-color: #f5f5f7;
 }
@@ -360,7 +333,7 @@ footer {
 
 footer .container {
   color: #4a4a4a;
-  font-family: sans-serif-condensed, sans-serif, serif;
+  font-family: 'Avenir Next Condensed', 'Avenir Next Condensed Regular', AvenirNextCondensed-Regular, AvenirNextCondensed, 'Barlow Condensed', 'Roboto Condensed', RobotoCondensed, 'Roboto Condensed Regular', sans-serif-condensed, 'Roboto Condensed Light', RobotoCondensed-light, 'Palatino Linotype', Optima, 'Book Antiqua', Palatino, 'Gill Sans MT', 'Arial Narrow', sans-serif, serif;
   font-size: .8em;
   padding-top: 2rem;
   padding-bottom: 2rem;
