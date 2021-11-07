@@ -50,7 +50,7 @@ article {
 }
 
 body {
-  color: rgb(74, 74, 74);
+  color: black;
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5rem;
@@ -94,15 +94,14 @@ hr {
 /*! navbar */
 nav {
   background-color: white;
-  -webkit-box-shadow: rgb(0 0 0 / 10%) 0 4px 6px -1px;
-  box-shadow: rgb(0 0 0 / 10%) 0 4px 6px -1px;
+  -webkit-box-shadow: rgba(0, 0, 0,.1) 0 4px 6px -1px;
+  box-shadow: rgba(0, 0, 0,.1) 0 4px 6px -1px;
   display: block;
   font-size: 1.2rem;
   height: 3rem;
   overflow-x: hidden;
   position: fixed;
     top: 0;
-    bottom: 0;
     right: 0;
     left: 0;
     z-index: 10086;
@@ -172,8 +171,8 @@ main .container {
 main .card {
   background-color: white;
   border-radius: 0.55rem;
-  -webkit-box-shadow: rgb(0 0 0 / 10%) 0 4px 6px -1px, rgb(0 0 0 / 6%) 0 2px 4px -1px;
-  box-shadow: rgb(0 0 0 / 10%) 0 4px 6px -1px, rgb(0 0 0 / 6%) 0 2px 4px -1px;
+  -webkit-box-shadow: rgba(0, 0, 0,.1) 0 4px 6px -1px, rgba(0, 0, 0,.1) 0 2px 4px -1px;
+  box-shadow: rgba(0, 0, 0,.1) 0 4px 6px -1px, rgba(0, 0, 0,.1) 0 2px 4px -1px;
   color: black;
   margin-bottom: 1.2rem;
   max-width: 100%;
@@ -296,8 +295,8 @@ main .pagination {
   border-radius: 0.35rem;
   border-style: solid;
   border-width: 1px;
-  -webkit-box-shadow: rgb(0 0 0 / 10%) 0 4px 6px -1px, rgb(0 0 0 / 6%) 0 2px 4px -1px;
-  box-shadow: rgb(0 0 0 / 10%) 0 4px 6px -1px, rgb(0 0 0 / 6%) 0 2px 4px -1px;
+  -webkit-box-shadow: rgba(0, 0, 0,.1) 0 4px 6px -1px, rgba(0, 0, 0,.1) 0 2px 4px -1px;
+  box-shadow: rgba(0, 0, 0,.1) 0 4px 6px -1px, rgba(0, 0, 0,.1) 0 2px 4px -1px;
   display: inline-block;
   line-height: 2.25rem;
   position: relative;
