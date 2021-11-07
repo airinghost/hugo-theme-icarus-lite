@@ -49,10 +49,6 @@ article {
   vertical-align: initial;
 }
 
-html {
-  background-color: white;
-}
-
 body {
   color: rgb(74, 74, 74);
   font-size: 1rem;
@@ -104,7 +100,7 @@ nav {
   font-size: 1.2rem;
   height: 3rem;
   overflow-x: hidden;
-  position: sticky;
+  position: fixed;
     top: 0;
     bottom: 0;
     right: 0;
@@ -158,17 +154,17 @@ nav a.menu-active {
 
 
 /*! main section*/
-main {
-  background-color: #f5f5f7;
-}
+
 main .loading {
   display: none;
 }
 
 main .container {
+  background-color: #f5f5f7;
   display: block;
   padding-top: 1.2rem;
   padding-bottom: .2rem;
+  margin-top: 3rem;
 }
 
 
@@ -280,7 +276,7 @@ article ol {
 /*! main pagination section */
 main .pagination {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   margin-bottom: .75rem;
   padding: 0 0 .4rem 0;
 }
@@ -328,6 +324,7 @@ main .pagination {
 
 /*! footer */
 footer {
+  background-color: white;
   display: block;
 }
 
@@ -345,6 +342,10 @@ footer .container .icp span {
 
 footer .container a {
   color: inherit;
+}
+
+footer .container a:hover {
+  background-color: #f5f5f7;
 }
 
 /*! flex container */
