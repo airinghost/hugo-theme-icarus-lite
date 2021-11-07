@@ -11,9 +11,6 @@
         <div class="text">{{ .Content }}</div>
     </article>
 </div>
-
-    {{ if .Params.read_more }}
     <div class="pagination">
         <a href="javascript:history.back();">{{ $.Site.Params.PageBack }}</a>
-    {{ end }}
 {{ end }}
