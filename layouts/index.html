@@ -4,31 +4,39 @@
 {{ $filtered := ($pages | intersect $notHidden) }}
 {{ $pag := .Paginate ($filtered) }}
 {{ range $index, $element := $pag.Pages }}
-<div class="card">
-    <article>
-        {{ if .Params.date_hidden }}
-        {{ else }}
-        {{ $dateTime := .PublishDate.Format "2006-01-02" }}
-        {{ $dateFormat := .Site.Params.dateFormat | default "2006" }}
-        <time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time>
-        {{ end }}
-        <h2>{{ .Title }}</h2>
-        <div class="text">{{ .Summary }}</div>
-        {{ if .Params.read_more }}
-        <a class="button" href="{{.RelPermalink}}">
-            {{ if .Params.read_more_txt }}
-            {{ .Params.read_more_txt }}
-        </a>
-            {{ else }}
-            {{ $.Site.Params.read_more }}
-        </a>
-            {{ end }}
-        {{ end }}
-        {{ if .Params.link_go }}
-        <a class="button" href="{{ .Params.link_go }}" target="_blank" rel="noopener"><span></span>{{ .Params.link_txt }}</a>
-        {{ end }}
-    </article>
-</div>
+        <div class="card">
+
+            <article>
+
+                {{ if .Params.date_hidden }}
+                {{ else }}
+                    {{ $dateTime := .PublishDate.Format "20060102" }}
+                    {{ $dateFormat := .Site.Params.dateFormat | default "2006" }}
+                <time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time>
+                {{ end }}
+
+                <h2>{{ .Title }}</h2>
+
+                <div class="text">{{ .Summary }}</div>
+
+                {{ if .Params.read_more }}
+                <a class="button" href="{{.RelPermalink}}">
+                    {{ if .Params.read_more_txt }}
+                        {{ .Params.read_more_txt }}
+                </a>
+                    {{ else }}
+                        {{ $.Site.Params.read_more }}
+                </a>
+                    {{ end }}
+                {{ end }}
+
+                {{ if .Params.link_go }}
+                <a class="button" href="{{ .Params.link_go }}" target="_blank" rel="noopener">{{ .Params.link_txt }}</a>
+                {{ end }}
+
+            </article>
+
+        </div>
 {{ end }}
 
 {{ if (or ( .Paginator.HasNext ) ( .Paginator.HasPrev )) }}
