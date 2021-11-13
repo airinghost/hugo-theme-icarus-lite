@@ -54,21 +54,23 @@ article {
 }
 
 body {
-  background-color: #f5f5f5;
+  background-color: #f2f2f2;
   color: black;
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
+  padding-top: 3rem;
 }
 
 .container {
-  font-family: 'Palatino Linotype', Optima, 'Book Antiqua', Palatino, 'Gill Sans MT', 'Arial Narrow', 'PingFang SC', -apple-system, BlinkMacSystemFont, 'Source Han Serif SC', 'Noto Serif CJK SC', 'Source Han Serif CN', 'Noto Serif SC', source-han-serif-sc, system-ui, 'Helvetica Neue', 'Helvetica', Tahoma, 'Microsoft YaHei', 'Droid Serif', 'Open Serif', sans-serif, serif;
+  font-family: 'Avenir Next Condensed', 'Avenir Next Condensed Regular', AvenirNextCondensed-Regular, AvenirNextCondensed, 'Barlow Condensed', 'Roboto Condensed', RobotoCondensed, 'Roboto Condensed Regular', sans-serif-condensed, 'Roboto Condensed Light', RobotoCondensed-light, 'Palatino Linotype', Optima, 'Book Antiqua', Palatino, 'Gill Sans MT', 'Arial Narrow', sans-serif, serif;
   flex-grow: 1;
   margin: 0 auto;
   padding: .9rem;
   position: relative;
   width: 100%;
 }
+
 
 a {
     color: #3273dc;
@@ -91,10 +93,10 @@ del {
 }
 
 hr {
-    border: 1px solid #f5f5f5;
+    border: 1px solid #f2f2f2;
     box-shadow: none;
     margin: .8rem 0 1rem 0;
-    background-color: #f5f5f5;
+    background-color: #f2f2f2;
 }
 
 
@@ -136,10 +138,7 @@ nav .logo {
 
 nav a {
   align-items: center;
-  background-color: transparent;
-  border: 0 solid transparent;
-  -webkit-box-shadow: none;
-  box-shadow: none;
+  background-color: white;
   color: black;
   display: inline-flex;
   font-size: 1rem;
@@ -152,7 +151,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #f5f5f5;
+  background-color: #f2f2f2;
 }
 
 nav a.menu-active {
@@ -160,22 +159,21 @@ nav a.menu-active {
 }
 
 
-/*! main section*/
+/*! .main section*/
 
-main .loading {
+.main .loading {
   display: none;
 }
 
-main .container {
+.main .container {
   display: block;
   padding-top: 1.2rem;
   padding-bottom: .2rem;
-  margin-top: 3rem;
 }
 
 
-/*! main card section*/
-main .card {
+/*! .main card section*/
+.main .card {
   background-color: white;
   border-radius: 0.55rem;
   -webkit-box-shadow: rgba(0, 0, 0,.1) 0 4px 6px -1px, rgba(0, 0, 0,.1) 0 2px 4px -1px;
@@ -189,7 +187,7 @@ main .card {
 article {
   font-size: 1.1rem;
   line-height: 1.5;
-  padding: .9rem;
+  padding: .5rem .9rem .9rem .9rem;
   text-align: justify;
 }
 
@@ -227,7 +225,7 @@ article h4 {
 }
 
 article a.button {
-  background-color: #f5f5f5;
+  background-color: #f2f2f2;
   border: 1px solid transparent;
   border-radius: 0.35rem;
   -webkit-box-shadow: none;
@@ -242,10 +240,6 @@ article a:hover {
   background-color: #eeeeee;
 }
 
-article a:active {
-  background-color: #dcdcdc;
-}
-
 article a.button {
   color: #1d1d1d;
   font-size: .9rem;
@@ -253,7 +247,7 @@ article a.button {
 }
 
 article blockquote {
-  background-color: #f5f5f5;
+  background-color: #f2f2f2;
   border-left: 4px solid #dbdbdb;
   margin-bottom: .6em;
   margin-top: .3em;
@@ -262,9 +256,9 @@ article blockquote {
 }
 
 article code {
-  background-color: #f5f5f5;
+  background-color: #f2f2f2;
   border-radius: .3em;
-  font-family: "Courier New", Courier, monospace, serif, sans-serif;
+  font-family: "Courier New", Courier, monospace, sans-serif, serif;
   font-size: .9rem;
   padding: .1em .2em;
 }
@@ -279,8 +273,8 @@ article ol {
 }
 
 
-/*! main pagination section */
-main .pagination {
+/*! .main pagination section */
+.main .pagination {
   display: flex;
   justify-content: flex-start;
   margin-bottom: .75rem;
@@ -318,10 +312,6 @@ main .pagination {
   background-color: #fcfcfc;
 }
 
-.pagination a:active {
-  background-color: #f5f5f5;
-}
-
 .pagination a {
   color: black;
   font-size: 1rem;
@@ -336,7 +326,7 @@ footer {
 
 footer .container {
   color: #4a4a4a;
-  font-family: 'Avenir Next Condensed', 'Avenir Next Condensed Regular', AvenirNextCondensed-Regular, AvenirNextCondensed, 'Barlow Condensed', 'Roboto Condensed', RobotoCondensed, 'Roboto Condensed Regular', sans-serif-condensed, 'Roboto Condensed Light', RobotoCondensed-light, 'Palatino Linotype', Optima, 'Book Antiqua', Palatino, 'Gill Sans MT', 'Arial Narrow', sans-serif, serif;
+  font-family: 'Palatino Linotype', Optima, 'Book Antiqua', Palatino, 'Gill Sans MT', 'Arial Narrow', 'PingFang SC', -apple-system, BlinkMacSystemFont, 'Source Han Serif SC', 'Noto Serif CJK SC', 'Source Han Serif CN', 'Noto Serif SC', source-han-serif-sc, system-ui, 'Helvetica Neue', 'Helvetica', Tahoma, 'Microsoft YaHei', 'Droid Serif', 'Open Serif', sans-serif, serif;
   font-size: .8em;
   line-height: 1.8;
   padding-top: 2rem;
@@ -352,14 +342,21 @@ footer .container a {
 }
 
 footer .container a:hover {
-  background-color: #f5f5f5;
-}
-
-footer .container a:active {
-  color: #0066cc;
+  background-color: #f2f2f2;
 }
 
 /*! flex container */
+@media (min-width:641px) {
+  article a:active {
+    background-color: #dcdcdc;
+  }
+  .pagination a:active {
+    background-color: #f2f2f2;
+  }
+  footer .container a:active {
+    color: #0066cc;
+  }
+}
 @media (max-width:640px) {
   .container {
     width: 100%;
@@ -401,3 +398,5 @@ footer .container a:active {
 
 
 /*! custom css */
+
+

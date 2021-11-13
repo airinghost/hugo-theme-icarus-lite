@@ -1,28 +1,25 @@
 <!DOCTYPE html>
+
 <html lang="{{ .Site.LanguageCode }}">
 
-    {{- partial "head.html" . -}}
+{{ partial "head.html" . }}
 
-    <body>
+<body>
+    
+    {{ partial "navbar.html" . }}
 
-        <nav>
-            <div class="container">
-                {{- partial "nav.html" . -}}
-            </div>
-        </nav>
+    <div class="main">
+        <div class="loading">
+            Loading...
+        </div>
 
-        <main>
-            <div class="loading">Loading...</div>
-            <div class="container">
-                {{- block "main" . }}{{- end }}
-            </div>
-        </main>
-        
-        <footer>
-            <div class="container">
-                {{- partial "footer.html" . -}}
-            </div>
-        </footer>
+        <div class="container">
+        {{ block "main" . }}{{ end }}
+        </div>
+    </div>
 
-    </body>
+    {{ partial "footer.html" . }}
+
+</body>
+
 </html>

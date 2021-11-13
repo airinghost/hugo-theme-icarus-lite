@@ -6,9 +6,14 @@
     {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
     <title>{{ $title }}</title>
 
-    {{ partial "pre-css.html" . }}
+    {{ partial "custom-head.html" . }}
 
-    <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}" media="print" onload="this.media='all'; this.onload = null">
-    <noscript><link rel="stylesheet" href="{{ "/css/style.css" | relURL }}"></noscript>
-    <link rel="icon" href="/favicon.png" type="image/png">
+    {{ partial "internal-style.html" . }}
+
+    {{ $css := resources.Get "css/style.css" }}
+    {{ $style := $css | resources.Minify }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}?v={{ .Site.Params.cssver }}" media="print" onload="this.media='all'; this.onload = null">
+    <noscript><link rel="stylesheet" href="{{ $style.RelPermalink }}?v={{ .Site.Params.cssver }}"></noscript>
+
+
 </head>

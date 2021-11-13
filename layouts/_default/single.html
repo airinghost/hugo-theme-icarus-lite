@@ -1,16 +1,25 @@
 {{ define "main" }}
-<div class="card">
-    <article>
-        {{ if .Params.date_hidden }}
-        {{ else }}
-        {{ $dateTime := .PublishDate.Format "2006-01-02" }}
-        {{ $dateFormat := .Site.Params.dateFormat | default "2006" }}
-        <time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time>
-        {{ end }}
-        <h2>{{ .Title }}</h2>
-        <div class="text">{{ .Content }}</div>
-    </article>
-</div>
-    <div class="pagination">
-        <a href="javascript:history.back();">{{ $.Site.Params.PageBack }}</a>
+
+        <div class="card">
+
+            <article>
+
+                {{ if .Params.date_hidden }}
+                {{ else }}
+                    {{ $dateTime := .PublishDate.Format "2006-01-02" }}
+                    {{ $dateFormat := .Site.Params.dateFormat }}
+                <time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time>
+                {{ end }}
+
+                <h2>{{ .Title }}</h2>
+
+                <div class="text">{{ .Content }}</div>
+            </article>
+
+        </div>
+
+        <div class="pagination">
+            <a onclick="javascript:history.back();">{{ $.Site.Params.PageBack }}</a>
+        </div>
+
 {{ end }}
