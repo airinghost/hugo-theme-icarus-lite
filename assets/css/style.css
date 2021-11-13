@@ -63,7 +63,7 @@ body {
 }
 
 .container {
-  font-family: 'Avenir Next Condensed', 'Avenir Next Condensed Regular', AvenirNextCondensed-Regular, AvenirNextCondensed, 'Barlow Condensed', 'Roboto Condensed', RobotoCondensed, 'Roboto Condensed Regular', sans-serif-condensed, 'Roboto Condensed Light', RobotoCondensed-light, 'Palatino Linotype', Optima, 'Book Antiqua', Palatino, 'Gill Sans MT', 'Arial Narrow', sans-serif, serif;
+  font-family: 'Palatino Linotype', Optima, 'Book Antiqua', Palatino, 'Gill Sans MT', 'Arial Narrow', 'PingFang SC', -apple-system, BlinkMacSystemFont, 'Source Han Serif SC', 'Noto Serif CJK SC', 'Source Han Serif CN', 'Noto Serif SC', source-han-serif-sc, system-ui, 'Helvetica Neue', 'Helvetica', Tahoma, 'Microsoft YaHei', 'Droid Serif', 'Open Serif', sans-serif, serif;
   flex-grow: 1;
   margin: 0 auto;
   padding: .9rem;
@@ -326,7 +326,7 @@ footer {
 
 footer .container {
   color: #4a4a4a;
-  font-family: 'Palatino Linotype', Optima, 'Book Antiqua', Palatino, 'Gill Sans MT', 'Arial Narrow', 'PingFang SC', -apple-system, BlinkMacSystemFont, 'Source Han Serif SC', 'Noto Serif CJK SC', 'Source Han Serif CN', 'Noto Serif SC', source-han-serif-sc, system-ui, 'Helvetica Neue', 'Helvetica', Tahoma, 'Microsoft YaHei', 'Droid Serif', 'Open Serif', sans-serif, serif;
+  font-family: 'Avenir Next Condensed', 'Avenir Next Condensed Regular', AvenirNextCondensed-Regular, AvenirNextCondensed, 'Barlow Condensed', 'Roboto Condensed', RobotoCondensed, 'Roboto Condensed Regular', sans-serif-condensed, 'Roboto Condensed Light', RobotoCondensed-light, 'Palatino Linotype', Optima, 'Book Antiqua', Palatino, 'Gill Sans MT', 'Arial Narrow', sans-serif, serif;
   font-size: .8em;
   line-height: 1.8;
   padding-top: 2rem;
