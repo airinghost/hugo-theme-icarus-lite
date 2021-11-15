@@ -1,16 +1,19 @@
 <nav>
     <div class="container">
 
-        {{- if .Site.Params.logo }}
+        {{- if .Site.Params.logo -}}
         <div class="logo">
             <img src="{{ $.Site.Params.logo }}" loading="lazy" width="24" height="24">
         </div>
-        {{ end -}}
+        {{- end -}}
 
         {{ $currentPage := . }}
-        {{ range .Site.Menus.main }}
-        <a href="{{ .URL }}" {{ if eq (.URL | relLangURL ) $currentPage.RelPermalink }}class="menu-active"{{ else }}{{ end }}>{{ $text := print .Name | safeHTML }}{{ $text }}</a>
-        {{ end }}
+        {{- range .Site.Menus.home -}}
+        <a href="{{ .URL }}" {{ if or $.IsHome (eq .Identifier $currentPage.Section) }}class="menu-active"{{ end }}>{{ print .Name | safeHTML }}</a>
+        {{- end -}}
+        {{- range .Site.Menus.main -}}
+        <a href="{{ .URL }}" {{ if eq .Identifier $currentPage.Section }}class="menu-active"{{ end }}>{{ print .Name | safeHTML }}</a>
+        {{- end -}}
 
     </div>
 </nav>

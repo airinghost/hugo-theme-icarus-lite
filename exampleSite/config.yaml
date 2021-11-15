@@ -34,8 +34,7 @@ params:
 
     logo: "/favicon.png"  ## at /themes/hugo-theme-icarus-lite/static/ 
     
-    mainSections: 
-        - posts  ## This means that you need to put posts .md files in the folder /content/posts/ , and these files can be viewed at Homepage.
+    mainSections: posts  ## This means that you need to put posts .md files in the folder /content/posts/ , then these files can be viewed at Homepage.
 
     ## Buttons Text
     PageBack: "Back to Prev"
@@ -44,22 +43,28 @@ params:
     read_more: "Read More"
 
     ## for websites hosted on mainland China servers. Just DELETE this whole part if no need
-    ## 下面这部分是页脚备案信息，如果没有备案，直接删掉这部分即可
+    ## 下面这部分是页脚的备案信息。如果不需要，直接删掉或用 # 注释掉该部分即可
     ICP: 
         province: 京
         certnum: "06010200"
 
 ## Navbar Menus
 menu:
-    main:
-        - identifier: home
-          name: HOME
-          url: /
-          weight: 1
-        - identifier: pages
-          name: PAGES
-          url: /pages/
-          weight: 2
+  home:
+  - identifier: "posts"  ## This identifier value needs to be equal to the [params.mainSections] above
+    name: "HOME"  ## The NAME will show as menu text
+    url: /
+    weight: 1
+  main:
+  - identifier: "pages"  ## Each identifier value should be unique and equal to the name of the FOLDER in which those original .md files are
+    name: "PAGES"
+    url: /pages/
+    weight: 2
+  ## Try to ollow these rules to add menus as you like  
+  - identifier: "me"
+    name: "ABOUT"
+    url: /about/
+    weight: 3
 
 markup:
     goldmark:
