@@ -150,12 +150,12 @@ nav a {
   vertical-align: middle;
 }
 
-nav a:hover {
-  background-color: #f2f2f2;
-}
-
 nav a.menu-active {
   color: #3273dc;
+}
+
+nav a:hover {
+  background-color: #f2f2f2;
 }
 
 
@@ -230,20 +230,23 @@ article a.button {
   border-radius: 0.35rem;
   -webkit-box-shadow: none;
   box-shadow: none;
+  color: #1d1d1d;
   display: inline-flex;
+  font-size: .9rem;
   line-height: 1.8;
   margin-top: .9rem;
+  padding: .05rem .35rem 0 .35rem;
   position: relative;
 }
 
-article a:hover {
-  background-color: #eeeeee;
+@media (min-width:641px) {
+  article a:hover {
+    background-color: #eeeeee;
+  }
 }
 
-article a.button {
-  color: #1d1d1d;
-  font-size: .9rem;
-  padding: .05rem .35rem 0 .35rem;
+article a:active {
+  background-color: #dcdcdc;
 }
 
 article blockquote {
@@ -298,7 +301,9 @@ article ol {
   border-width: 1px;
   -webkit-box-shadow: rgba(0, 0, 0,.1) 0 4px 6px -1px, rgba(0, 0, 0,.1) 0 2px 4px -1px;
   box-shadow: rgba(0, 0, 0,.1) 0 4px 6px -1px, rgba(0, 0, 0,.1) 0 2px 4px -1px;
+  color: black;
   display: inline-block;
+  font-size: 1rem;
   line-height: 2.25;
   position: relative;
   padding: .05rem .35rem 0 .35rem;
@@ -308,14 +313,16 @@ article ol {
   visibility: hidden!important;
 }
 
-.pagination a:hover {
-  background-color: #fcfcfc;
+@media (min-width:641px) {
+  .pagination a:hover {
+    background-color: #fcfcfc;
+  }
 }
 
-.pagination a {
-  color: black;
-  font-size: 1rem;
+.pagination a:active {
+  background-color: #f2f2f2;
 }
+
 
 
 /*! footer */
@@ -341,22 +348,20 @@ footer .container a {
   color: inherit;
 }
 
-footer .container a:hover {
-  background-color: #f2f2f2;
-}
-
-/*! flex container */
 @media (min-width:641px) {
-  article a:active {
-    background-color: #dcdcdc;
-  }
-  .pagination a:active {
+  footer .container a:hover {
     background-color: #f2f2f2;
   }
-  footer .container a:active {
-    color: #0066cc;
-  }
 }
+
+footer .container a:active {
+  color: #0066cc;
+}
+
+
+
+/*! flex container */
+
 @media (max-width:640px) {
   .container {
     width: 100%;
