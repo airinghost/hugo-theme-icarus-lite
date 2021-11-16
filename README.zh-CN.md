@@ -1,5 +1,5 @@
 
-# <div align="center"><img align="center" width="48" height="48" src="https://cdn.jsdelivr.net/gh/airinghost/hugo-theme-icarus-lite/static/favicon.png">&nbsp;Icarus-Lite</div>
+# <div align="center"><img style="vertical-align:text-bottom" width="48" height="48" src="https://cdn.jsdelivr.net/gh/airinghost/hugo-theme-icarus-lite/static/favicon.png">&nbsp;Icarus-Lite</div>
 
 <p align="center">
 	一款基于 Hexo 主题<a href="https://github.com/ppoffice/hexo-theme-icarus"> Icarus </a>的样式制作的单栏、卡片式的 Hugo 主题

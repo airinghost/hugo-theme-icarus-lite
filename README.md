@@ -1,5 +1,5 @@
 
-# <div align="center"><img align="center" width="48" height="48" src="https://cdn.jsdelivr.net/gh/airinghost/hugo-theme-icarus-lite/static/favicon.png">&nbsp;Icarus-Lite</div>
+# <div align="center"><img style="vertical-align:text-bottom" width="48" height="48" src="https://cdn.jsdelivr.net/gh/airinghost/hugo-theme-icarus-lite/static/favicon.png">&nbsp;Icarus-Lite</div>
 
 <p align="center">
 	A one-column and card-style Hugo theme based on the Hexo theme<a href="https://github.com/ppoffice/hexo-theme-icarus"> Icarus</a>
