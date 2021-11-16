@@ -66,6 +66,6 @@
 
 ## 其他
 
-得益于 Hugo 的 `list.html` 模板，我们可以很方便地在处了主页外的其他目录也用上主页布局。但如果你在使用 Hexo 的同时也想要实现这项功能，那么我推荐 Jamling 的这个项目：[`hexo-generator-index2`](https://github.com/Jamling/hexo-generator-index2)。
+得益于 Hugo 的 `list.html` 模板，我们可以很方便地在除了主页外的其他目录也用上主页布局。但如果你在使用 Hexo 的同时也想要实现这项功能，那么我推荐 Jamling 的这个项目：[`hexo-generator-index2`](https://github.com/Jamling/hexo-generator-index2)。
 
 
