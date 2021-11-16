@@ -1,12 +1,16 @@
 
-# <div align="center"><img style="vertical-align:text-bottom" width="48" height="48" src="https://cdn.jsdelivr.net/gh/airinghost/hugo-theme-icarus-lite/static/favicon.png">&nbsp;Icarus-Lite</div>
+<div align="center"><img width="48" height="48" src="https://cdn.jsdelivr.net/gh/airinghost/hugo-theme-icarus-lite/static/favicon.png">
+<br><h2>Icarus-Lite</h2>
+</div>
 
 <p align="center">
-	A one-column and card-style Hugo theme based on the Hexo theme<a href="https://github.com/ppoffice/hexo-theme-icarus"> Icarus</a>
+	A single-column and card-style Hugo theme based on the<a href="https://github.com/ppoffice/hexo-theme-icarus"> Hexo theme Icarus</a>
 </p>
 <p align="center">
 	<a href="README.zh-CN.md">中文（简体）说明</a>
 </p>
+
+![](https://cdn.jsdelivr.net/gh/airinghost/hugo-theme-icarus-lite/preview.png)
 
 
 
@@ -28,7 +32,7 @@ Set `hidden: true` (YAML) / `hidden = true` (TOML) to hide the file from the ind
 
 Set `date_hidden: true` to remove the date text & structure from the top left-hand of the article card in index, list and single views.
 
-Set `read_more: true` to add a button at the bottom left-hand of the article card in index or list views; the button text is set in Site Config - Params, you can change it globally.
+Set `read_more: true` to add a button at the bottom left-hand of the article card in index or list views; the button text is set at [Params] section in Config file, you can change it globally.
 
 Set `read_more_txt: customText` to overwrite the text for the read-more button mentioned above.
 

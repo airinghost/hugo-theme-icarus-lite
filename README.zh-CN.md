@@ -1,12 +1,16 @@
 
-# <div align="center"><img style="vertical-align:text-bottom" width="48" height="48" src="https://cdn.jsdelivr.net/gh/airinghost/hugo-theme-icarus-lite/static/favicon.png">&nbsp;Icarus-Lite</div>
+<div align="center"><img width="48" height="48" src="https://cdn.jsdelivr.net/gh/airinghost/hugo-theme-icarus-lite/static/favicon.png">
+<br><h2>Icarus-Lite</h2>
+</div>
 
 <p align="center">
-	一款基于 Hexo 主题<a href="https://github.com/ppoffice/hexo-theme-icarus"> Icarus </a>的样式制作的单栏、卡片式的 Hugo 主题
+	一款基于<a href="https://github.com/ppoffice/hexo-theme-icarus"> Hexo 主题 Icarus </a>的样式制作的单栏、卡片式的 Hugo 主题
 </p>
 <p align="center">
-	<a href="README.md">English</a>
+	<a href="README.md">English Intro</a>
 </p>
+
+![](https://cdn.jsdelivr.net/gh/airinghost/hugo-theme-icarus-lite/preview.png)
 
 
 
@@ -24,15 +28,15 @@
 
 ### 2.1 Front Matter 区域
 
-输入 `hidden: true`（YAML格式）或 `hidden = true`（TOML格式，下同）以隐藏该文章于首页视图（即使用了 index.html 模板的视图）中。
+设置 `hidden: true`（YAML格式）或 `hidden = true`（TOML格式，下同）以隐藏该文章于首页视图（即使用了 index.html 模板的视图）中。
 
-输入 `date_hidden: true` 以隐藏该文章卡片左上角的发布时间及其结构所占用的空间。
+设置 `date_hidden: true` 以隐藏该文章卡片左上角的发布时间及其结构所占用的空间。
 
-输入 `read_more: true` 以添加“阅读更多”的按钮于文章卡片左下角。该按钮的文字可在站点配置文件中的 `Params` 区域进行全局修改。
+设置 `read_more: true` 以添加“阅读更多”的按钮于文章卡片左下角。该按钮的文字可在站点配置文件中的 `Params` 区域进行全局修改。
 
-输入 `read_more_txt: 自定义文字` 以覆盖上面提到的全局设置。
+设置 `read_more_txt: 自定义文字` 以覆盖上面提到的全局设置。
 
-输入 `link_go: 网址` 和 `link_txt: 自定义文字` 以添加一按钮于文章卡片左下角，点击该按钮可在浏览器新标签页中打开你填入的网址。
+设置 `link_go: 网址` 和 `link_txt: 自定义文字` 以添加一按钮于文章卡片左下角，点击该按钮可在浏览器新标签页中打开你填入的网址。
 
 ### 2.2 正文区域
 
