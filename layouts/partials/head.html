@@ -2,9 +2,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    {{ $title := print .Section " | " .Site.Title }}
+    {{ $title := print .Section " / " .Site.Title }}
     {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
-    <title>{{ $title }}</title>
+    <title>{{ upper $title }}</title>
 
     {{ partial "custom-head.html" . }}
 
@@ -14,6 +14,5 @@
     {{ $style := $css | resources.Minify }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}?v={{ .Site.Params.cssver }}" media="print" onload="this.media='all'; this.onload = null">
     <noscript><link rel="stylesheet" href="{{ $style.RelPermalink }}?v={{ .Site.Params.cssver }}"></noscript>
-
 
 </head>
