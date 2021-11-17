@@ -56,17 +56,17 @@ article {
 body {
   background-color: #f2f2f2;
   color: black;
-  font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
-  padding-top: 3rem;
+  padding-top: 3.2rem;
 }
 
 .container {
-  font-family: 'Avenir Next Condensed', 'Avenir Next Condensed Regular', AvenirNextCondensed-Regular, AvenirNextCondensed, 'Barlow Condensed', 'Roboto Condensed', RobotoCondensed, 'Roboto Condensed Regular', sans-serif-condensed, 'PingFang SC', Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, 'Microsoft YaHei', sans-serif, serif;
+  font-family: 'PingFang SC', Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, 'Microsoft YaHei', sans-serif, serif;
+  font-size: 1rem;
   flex-grow: 1;
   margin: 0 auto;
-  padding: .9rem;
+  padding: 1rem;
   position: relative;
   width: 100%;
 }
@@ -95,7 +95,7 @@ del {
 hr {
     border: 1px solid #f2f2f2;
     box-shadow: none;
-    margin: .8rem 0 1rem 0;
+    margin: .8em 0 .9em 0;
     background-color: #f2f2f2;
 }
 
@@ -107,8 +107,7 @@ nav {
   -webkit-box-shadow: rgba(0, 0, 0,.1) 0 4px 6px -1px;
   box-shadow: rgba(0, 0, 0,.1) 0 4px 6px -1px;
   display: block;
-  font-size: 1.2rem;
-  height: 3rem;
+  height: 3.2rem;
   overflow-x: hidden;
   position: fixed;
     top: 0;
@@ -118,33 +117,34 @@ nav {
 }
 
 nav .container {
+  font-size: 1.15rem;
   overflow-x: auto;
   padding-top: 0;
   padding-bottom: 0;
-  padding-left: 1.15rem;
   white-space: nowrap;
 }
 
 nav .logo {
   align-items: center;
   display: inline-flex;
-  height: 1.55rem;
-  width: 1.55rem;
+  height: 1.77rem;
+  width: 1.77rem;
   justify-content: center;
+  margin-left: .35rem;
   margin-right: .5rem;
   position: relative;
   vertical-align: middle;
 }
 
 nav a {
-  align-items: center;
   background-color: white;
   color: black;
   display: inline-flex;
-  font-size: 1rem;
-  line-height: 3;
+  font-size: 1em;
+  height: 3.2rem;
+  line-height: 3.2rem;
   justify-content: center;
-  padding: 0 .3rem;
+  padding: 0 .35rem;
   position: relative;
   text-align: center;
   vertical-align: middle;
@@ -181,18 +181,17 @@ nav a:hover {
   color: black;
   margin-bottom: 1.2rem;
   max-width: 100%;
+  padding: .75rem .8rem .9rem .9rem;
   position: relative;
 }
 
 article {
-  font-size: 1.1rem;
   line-height: 1.5;
-  padding: .5rem .9rem .9rem .9rem;
-  text-align: justify;
+  text-align: left;
 }
 
 article time {
-  color: #4a4a4a;
+  color: #454545;
   font-size: .75em;
 }
 
@@ -201,25 +200,25 @@ article time.time-invisible {
 }
 
 article h1 {
-  color: #4a4a4a;
+  color: #454545;
   font-soze: 1.375em;
   margin-bottom: .55rem;
 }
 
 article h2 {
-  color: #4a4a4a;
+  color: #454545;
   font-size: 1.3em;
   margin-bottom: .55rem;
 }
 
 article h3 {
-  color: #4a4a4a;
+  color: #454545;
   font-size: 1.2em;
   margin-bottom: .55rem;
 }
 
 article h4 {
-  color: #4a4a4a;
+  color: #454545;
   font-size: 1.1em;
   margin-bottom: .55rem;
 }
@@ -232,11 +231,11 @@ article a.button {
   box-shadow: none;
   color: #1d1d1d;
   display: inline-flex;
-  font-size: .9rem;
-  height: 1.9rem;
-  line-height: 1.9rem;
-  margin-top: .9rem;
-  padding: 0 .35rem;
+  font-size: .8em;
+  height: 2.2em;
+  line-height: 2.2em;
+  margin-top: 1em;
+  padding: 0 .4em;
   position: relative;
 }
 
@@ -253,9 +252,9 @@ article a:active {
 article blockquote {
   background-color: #f2f2f2;
   border-left: 4px solid #dbdbdb;
-  margin-bottom: .6em;
+  margin-bottom: .5em;
   margin-top: .3em;
-  padding: .5em;
+  padding: .45em .35em .4em .35em;
   text-align: left;
 }
 
@@ -263,26 +262,27 @@ article code {
   background-color: #f2f2f2;
   border-radius: .3em;
   font-family: "Courier New", Courier, monospace, sans-serif, serif;
-  font-size: .9rem;
+  font-size: .9em;
   padding: .1em .2em;
 }
 
 article ul {
   list-style: circle;
-  margin-left: 1.1em;
+  margin-left: 1.2em;
 }
 
 article ol {
-  margin-left: 1.1em;
+  margin-left: 1.2em;
 }
 
 
 /*! .main pagination section */
 .main .pagination {
   display: flex;
+  font-size: 1.1rem;
   justify-content: flex-start;
   margin-bottom: .75rem;
-  padding: 0 0 .4rem 0;
+  padding: 0 0 .3rem 0;
 }
 
 .pagination .page-num {
@@ -304,11 +304,10 @@ article ol {
   box-shadow: rgba(0, 0, 0,.1) 0 4px 6px -1px, rgba(0, 0, 0,.1) 0 2px 4px -1px;
   color: black;
   display: inline-block;
-  font-size: 1rem;
-  height: 2.5rem;
-  line-height: 2.5rem;
+  height: 2.5em;
+  line-height: 2.5em;
   position: relative;
-  padding: 0 .35rem;
+  padding: 0 .4em;
 }
 
 .pagination a.button-invisible {
@@ -334,11 +333,11 @@ footer {
 }
 
 footer .container {
-  color: #4a4a4a;
-  font-size: .8em;
+  color: #454545;
+  font-size: .85rem;
   line-height: 1.8;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
 }
 
 footer .container .icp span {
@@ -365,39 +364,32 @@ footer .container a:active {
 
 @media (max-width:640px) {
   .container {
+    font-size: 1.2rem;
     width: 100%;
   }
 }
 @media (max-width:1024px) and (min-width:641px) {
   .container {
+    font-size: 1.25rem;
     width: 620px;
-  }
-  .card article {
-    font-size: 1.1rem;
   }
 }
 @media (max-width:1280px) and (min-width:1025px) {
   .container {
+    font-size: 1.275rem;
     width: 720px;
-  }
-  .card article {
-    font-size: 1.125rem;
   }
 }
 @media (max-width:1920px) and (min-width:1281px) {
   .container {
+    font-size: 1.3rem;
     width: 810px;
-  }
-  .card article {
-    font-size: 1.15rem;
   }
 }
 @media (min-width:1921px) {
   .container {
+    font-size: 1.375rem;
     width: 1000px;
-  }
-  .card article {
-    font-size: 1.2rem;
   }
 }
 
@@ -405,4 +397,9 @@ footer .container a:active {
 
 /*! custom css */
 
-
+small {
+  display: inline-block;
+  font-size: .85em;
+  text-align: left;
+  text-transform: none;
+}
