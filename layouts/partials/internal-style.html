@@ -1,65 +1,56 @@
 <style>
-html {
-    background-color: #ededed;
-    font-size: 14px;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    overscroll-behavior: none!important;
-}
-
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
-html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6 {
-    margin: 0;
-    padding: 0;
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-weight: 400;
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
-button,input,select {
-    margin: 0;
+button, input, select {
+  margin: 0;
 }
 
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-*,*::before,*::after {
-    box-sizing: inherit;
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
-img,video {
-    height: auto;
-    max-width: 100%;
+img, video {
+  height: auto;
+  max-width: 100%;
 }
 
 iframe {
-    border: 0;
+  border: 0;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-td,th {
-    padding: 0;
+td, th {
+  padding: 0;
 }
-
-
 
 /*! common */
 html {
   background-color: white;
-}
-
-article {
-  vertical-align: initial;
+  font-size: 14px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  overscroll-behavior: none!important;
 }
 
 body {
@@ -71,7 +62,7 @@ body {
 }
 
 .container {
-  font-family: 'PingFang SC', Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, 'Microsoft YaHei', sans-serif, serif;
+  font-family: PingFang SC, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Microsoft YaHei, sans-serif, serif;
   font-size: 1rem;
   flex-grow: 1;
   margin: 0 auto;
@@ -79,7 +70,6 @@ body {
   position: relative;
   width: 100%;
 }
-
 
 a {
     color: #3273dc;
@@ -111,10 +101,7 @@ hr {
 small {
   display: inline-block;
   font-size: .85em;
-  text-align: left;
-  text-transform: none;
 }
-
 
 /*! navbar */
 nav {
@@ -173,28 +160,21 @@ nav a:hover {
   background-color: #f2f2f2;
 }
 
-
 /*! .main section*/
-
-.main .loading {
-  display: none;
-}
-
 .main .container {
   display: block;
-  padding-top: 1.2rem;
+  padding-top: 1.35rem;
   padding-bottom: .2rem;
 }
 
-
-/*! .main card section*/
+/*! main card section*/
 .main .card {
   background-color: white;
   border-radius: 0.55rem;
   -webkit-box-shadow: rgba(0, 0, 0,.1) 0 4px 6px -1px, rgba(0, 0, 0,.1) 0 2px 4px -1px;
   box-shadow: rgba(0, 0, 0,.1) 0 4px 6px -1px, rgba(0, 0, 0,.1) 0 2px 4px -1px;
   color: black;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.35rem;
   max-width: 100%;
   padding: .75rem .8rem .9rem .9rem;
   position: relative;
@@ -247,10 +227,10 @@ article a.button {
   color: #1d1d1d;
   display: inline-flex;
   font-size: .8em;
-  height: 2.2em;
-  line-height: 2.2em;
+  height: 2.1em;
+  line-height: 2.1em;
   margin-top: 1em;
-  padding: 0 .4em;
+  padding: 0 .35em;
   position: relative;
 }
 
@@ -276,7 +256,7 @@ article blockquote {
 article code {
   background-color: #f2f2f2;
   border-radius: .3em;
-  font-family: "Courier New", Courier, monospace, sans-serif, serif;
+  font-family: Courier New, Courier, monospace, sans-serif, serif;
   font-size: .9em;
   padding: .1em .2em;
 }
@@ -289,7 +269,6 @@ article ul {
 article ol {
   margin-left: 1.2em;
 }
-
 
 /*! .main pagination section */
 .main .pagination {
@@ -339,8 +318,6 @@ article ol {
   background-color: #f2f2f2;
 }
 
-
-
 /*! footer */
 footer {
   background-color: white;
@@ -373,34 +350,35 @@ footer .container a:active {
   color: #0066cc;
 }
 
-
-
 /*! flex container */
-
 @media (max-width:640px) {
   .container {
     font-size: 1.2rem;
     width: 100%;
   }
 }
+
 @media (max-width:1024px) and (min-width:641px) {
   .container {
     font-size: 1.25rem;
     width: 620px;
   }
 }
+
 @media (max-width:1280px) and (min-width:1025px) {
   .container {
     font-size: 1.275rem;
     width: 720px;
   }
 }
+
 @media (max-width:1920px) and (min-width:1281px) {
   .container {
     font-size: 1.3rem;
     width: 810px;
   }
 }
+
 @media (min-width:1921px) {
   .container {
     font-size: 1.375rem;

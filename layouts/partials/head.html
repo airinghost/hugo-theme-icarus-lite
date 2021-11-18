@@ -6,9 +6,9 @@
     {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
     <title>{{ $title | title }}</title>
 
-    {{- partial "custom-head.html" . -}}
-
     {{- partial "internal-style.html" . -}}
+
+    {{- partial "custom-head.html" . -}}
 
 
 </head>

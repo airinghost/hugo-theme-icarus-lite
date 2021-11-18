@@ -2,23 +2,19 @@
 
 <html lang="{{ .Site.LanguageCode }}">
 
-{{ partial "head.html" . }}
+{{- partial "head.html" . -}}
 
 <body>
     
-    {{ partial "navbar.html" . }}
+    {{- partial "navbar.html" . -}}
 
     <div class="main">
-        <div class="loading">
-            Loading...
-        </div>
-
         <div class="container">
         {{ block "main" . }}{{ end }}
         </div>
     </div>
 
-    {{ partial "footer.html" . }}
+    {{- partial "footer.html" . -}}
 
 </body>
 
