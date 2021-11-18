@@ -1,29 +1,8 @@
-## config bak
 
-## If you have created a new hugo site and dont know how to do next, just DELETE config.toml file at its root directory and copy THIS file into it. And the whole hugo-theme-icarus-lite folder should be put in /themes/ folder. 
+## If you have created a new hugo site and dont know how to do next, just DELETE config.toml file at its root directory and get the copy the example config file in exampleSite folder.
 
 ## Your posts files should be in /content/posts/ folder. See the [params.mainSections] section below.
 
-
-baseURL: https://example.com/
-
-## This would show at <head> section in html files
-languageCode: zh-CN   
-
-theme: hugo-theme-icarus-lite
-
-title: exampleTitle
-
-hasCJKLanguage: true
-summaryLength: 1000
-paginate: 10
-
-permalinks:
-  posts: /:year/:title/
-  pages: /:section/:filename/
-
-
-## Custom Params
 params:
 
     dateFormat: "Jan 2, 2006"
@@ -31,7 +10,7 @@ params:
     footerCopyright: 
         siteUrl: Your Domain / Name  ## This would show after footer text "© 202X"
 
-    logo: "/favicon.png"  ## at /themes/hugo-theme-icarus-lite/static/ 
+    logo: "/favicon.png"  ## at /static folder
     
     mainSections: posts  ## This means that you need to put posts .md files in the folder /content/posts/ , then these files can be viewed at Homepage.
 
@@ -43,61 +22,6 @@ params:
 
     ## for websites hosted on mainland China servers. Just DELETE this whole part if no need
     ## 下面这部分是页脚的备案信息。如果不需要，直接删掉或用 # 注释掉该部分即可
-    ICP: 
-        province: 京
-        certnum: "06010200"
-
-## Navbar Menus
-menu:
-  home:
-  - identifier: "posts"  ## This identifier value needs to be equal to the [params.mainSections] above
-    name: "HOME"  ## The NAME will show as menu text
-    url: /
-    weight: 1
-  main:
-  - identifier: "pages"  ## Each identifier value should be unique and equal to the name of the FOLDER in which those original .md files are
-    name: "PAGES"
-    url: /pages/
-    weight: 2
-  ## Try to ollow these rules to add menus as you like  
-  - identifier: "me"
-    name: "ABOUT"
-    url: /about/
-    weight: 3
-
-markup:
-    goldmark:
-        renderer:
-            unsafe: true  ## Set to true if you have HTML content inside Markdown
-
-## Decrease the size of .html and .css files
-minify:
-  disableCSS: false
-  disableHTML: false
-  disableJS: false
-  disableJSON: false
-  disableSVG: false
-  disableXML: false
-  minifyOutput: true
-  tdewolff:
-    css:
-      keepCSS2: false
-      precision: 0
-    html:
-      keepComments: false
-      keepConditionalComments: true
-      keepDefaultAttrVals: true
-      keepDocumentTags: true
-      keepEndTags: true
-      keepQuotes: false
-      keepWhitespace: false
-    js:
-      keepVarNames: false
-      precision: 0
-    json:
-      keepNumbers: false
-      precision: 0
-    svg:
-      precision: 0
-    xml:
-      keepWhitespace: false
+    ##ICP: 
+        ##province: 京
+        ##certnum: "06010200"

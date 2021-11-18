@@ -1,6 +1,6 @@
-## config bak
+## config example
 
-## If you have created a new hugo site and dont know how to do next, just DELETE config.toml file at its root directory and copy THIS file into it. And the whole hugo-theme-icarus-lite folder should be put in /themes/ folder. 
+## If you have created a new hugo site and dont know how to do next, just DELETE config.toml file at its root directory and get the copy the example config file in exampleSite folder.
 
 ## Your posts files should be in /content/posts/ folder. See the [params.mainSections] section below.
 
@@ -31,7 +31,7 @@ params:
     footerCopyright: 
         siteUrl: Your Domain / Name  ## This would show after footer text "© 202X"
 
-    logo: "/favicon.png"  ## at /themes/hugo-theme-icarus-lite/static/ 
+    logo: "/favicon.png"  ## at /static folder
     
     mainSections: posts  ## This means that you need to put posts .md files in the folder /content/posts/ , then these files can be viewed at Homepage.
 
