@@ -25,7 +25,6 @@ permalinks:
 
 ## Custom Params
 params:
-    cssver: "2006010200"  ## If you make some modificaion to CSS file, then this number can be changed manually to refresh its cache
 
     dateFormat: "Jan 2, 2006"
 

@@ -4,15 +4,11 @@
 
     {{ $title := print .Section " / " .Site.Title }}
     {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
-    <title>{{ upper $title }}</title>
+    <title>{{ $title | title }}</title>
 
-    {{ partial "custom-head.html" . }}
+    {{- partial "custom-head.html" . -}}
 
-    {{ partial "internal-style.html" . }}
+    {{- partial "internal-style.html" . -}}
 
-    {{ $css := resources.Get "css/style.css" }}
-    {{ $style := $css | resources.Minify }}
-    <link rel="stylesheet" href="{{ $style.RelPermalink }}?v={{ .Site.Params.cssver }}" media="print" onload="this.media='all'; this.onload = null">
-    <noscript><link rel="stylesheet" href="{{ $style.RelPermalink }}?v={{ .Site.Params.cssver }}"></noscript>
 
 </head>
