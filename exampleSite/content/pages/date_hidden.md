@@ -1,7 +1,7 @@
 ---
 draft: false
-title: date_hidden
-date: 2020-01-01
+title: 'Hidden Date'
+date: 2021-01-01
 date_hidden: true
 read_more: false
 read_more_txt: 
