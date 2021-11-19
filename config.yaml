@@ -10,7 +10,13 @@ params:
     footerCopyright: 
         siteUrl: Your Domain / Name  ## This would show after footer text "© 202X"
 
-    logo: "/favicon.png"  ## at /static folder
+    navbarLogo: 
+        enabled: true
+        imgEnabled: true
+        imgPath: "/favicon.png"  ## at /static folder
+        imgWidth: "24px"
+        imgHeight: "24px"
+        svgEnabled: false  ## Put your SVG code in /layout/partials/custom-logo.html if enabled
     
     mainSections: posts  ## This means that you need to put posts .md files in the folder /content/posts/ , then these files can be viewed at Homepage.
 

@@ -1,16 +1,28 @@
 <nav>
     <div class="container">
 
-        {{- if .Site.Params.logo -}}
-        <div class="logo">
-            <img src="{{ $.Site.Params.logo }}" loading="lazy" width="24" height="24">
-        </div>
+        {{ $logo := .Site.Params.navbarLogo }}
+        {{- if $logo.enabled -}}
+
+            {{- if $logo.imgEnabled -}}
+            <div class="logo">
+                <img src="{{ $logo.imgPath }}" loading="lazy" width="{{ $logo.imgWidth }}" height="{{ $logo.imgHeight }}">
+            </div>
+            {{- end -}}
+
+            {{- if $logo.svgEnabled -}}
+            <div class="logo">
+                {{- partial "custom-logo.html" . -}}
+            </div>
+            {{- end -}}
+
         {{- end -}}
 
         {{ $currentPage := . }}
         {{- range .Site.Menus.home -}}
         <a href="{{ .URL }}" {{ if or $.IsHome (eq .Identifier $currentPage.Section) }}class="menu-active"{{ end }}>{{ print .Name | safeHTML }}</a>
         {{- end -}}
+
         {{- range .Site.Menus.main -}}
         <a href="{{ .URL }}" {{ if eq .Identifier $currentPage.Section }}class="menu-active"{{ end }}>{{ print .Name | safeHTML }}</a>
         {{- end -}}
