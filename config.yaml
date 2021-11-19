@@ -27,7 +27,8 @@ params:
     read_more: "Read More"
 
     ## for websites hosted on mainland China servers. Just DELETE this whole part if no need
-    ## 下面这部分是页脚的备案信息。如果不需要，直接删掉或用 # 注释掉该部分即可
-    ##ICP: 
-        ##province: 京
-        ##certnum: "06010200"
+    ## 下面这部分是页脚的备案信息
+    ICP: 
+        enabled: false
+        province: 京
+        certnum: "06010200"

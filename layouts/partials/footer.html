@@ -4,7 +4,7 @@
 
         <p class="copyright">© {{ now.Format "2006" }} {{ $.Site.Params.footerCopyright.siteUrl }}</p>
 
-        {{ if .Site.Params.ICP }}
+        {{ if .Site.Params.ICP.enabled }}
             <p class="icp"><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener"><span>{{ $.Site.Params.ICP.province }}</span><span>ICP</span><span>备</span><span>{{ $.Site.Params.ICP.certnum }}</span><span>号</span></a></p>
         {{ end }}
         
