@@ -4,17 +4,37 @@
 </div>
 
 <p align="center">
-	A single-column Hugo theme based on the <a href="https://github.com/ppoffice/hexo-theme-icarus">Hexo theme Icarus</a>'s card style
+	A single-column Hugo theme based on the <a href="https://github.com/ppoffice/hexo-theme-icarus/">Hexo theme Icarus</a>'s card style
 </p>
 <p align="center">
-	<a href="README.zh-CN.md">中文（简体）说明</a>
+	<a href="https://github.com/airinghost/hugo-theme-icarus-lite/blob/main/README.zh-CN.md">中文（简体）说明</a>
 </p>
 
 ![](https://hugo-theme-icarus-lite.netlify.app/images/tn.png)
 
 
 
-## 1. Documentation
+## Features
+
+Card style - Every post or note can be a card.
+
+Single HTML file - Fully inline or internal Style Sheet and JavaScript.
+
+
+
+## Demo
+
+Site Status:
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/88217dfb-48e7-4579-bb57-b9d76ce3dbc0/deploy-status)](https://hugo-theme-icarus-lite.netlify.app/)
+
+Site Repo: 
+
+[hugo-blog-demo](https://github.com/airinghost/hugo-blog-demo/)
+
+
+
+## Documentation
 
 No Docs now.
 
@@ -24,9 +44,9 @@ Please don't hesitate to start [Discussions](https://github.com/airinghost/hugo-
 
 
 
-## 2. Tips
+## Tips
 
-### 2.1 Front Matter
+### (1) Front Matter
 
 Set `hidden: true` (YAML) / `hidden = true` (TOML) to hide the file from the index (homepage) view (i.e. posts using index.html template).
 
@@ -38,29 +58,29 @@ Set `read_more_txt: customText` to overwrite the text for the read-more button m
 
 Set `link_go: http://example.com` and `link_txt: customText` to add a button at the bottom left-hand of the article card in index or list views; it would open the link you set in a new tab in the browser.
 
-### 2.2 Body Text
+### (2) Body Text
 
 Don't forget to insert &lt;!--more--&gt; manually to your post or page file to generate the preview of the article, and it would look better.
 
 
 
-## 3. Acknowledgments
+## Acknowledgments
 
-PPOffice's awesome work on building such a beautiful theme for Hexo.
+- PPOffice's awesome work on building such a beautiful theme for Hexo.
 
-Pedro Lopez's [*Creating a Hugo Theme From Scratch*](https://retrolog.io/blog/creating-a-hugo-theme-from-scratch/) guided me to the basic structure of a Hugo theme.
+- Pedro Lopez's [*Creating a Hugo Theme From Scratch*](https://retrolog.io/blog/creating-a-hugo-theme-from-scratch/) guided me to the basic structure of a Hugo theme.
 
-Janne Kemppainen's [*Implemement Hugo List and Taxonomy Pages*](https://pakstech.com/blog/hugo-list-page/) helped me a lot on pagination.
+- Janne Kemppainen's [*Implemement Hugo List and Taxonomy Pages*](https://pakstech.com/blog/hugo-list-page/) helped me a lot on pagination.
 
-Tencent's [404 project](https://wj.qq.com/s2/9163450/732e/).
+- Tencent's [404 project](https://wj.qq.com/s2/9163450/732e/).
 
-Jeremy Thomas's [minireset.css](https://github.com/jgthms/minireset.css/).
+- Jeremy Thomas's [minireset.css](https://github.com/jgthms/minireset.css/).
 
-Cai Jimmy's [Stack](https://github.com/CaiJimmy/hugo-theme-stack/), a great card-style Hugo theme I like very much. And I made a use of some codes from his work, such as the main section at index template.
+- Cai Jimmy's [Stack](https://github.com/CaiJimmy/hugo-theme-stack/), a great card-style Hugo theme I like very much. And I made a use of some codes from his work, such as the main section at index template.
 
-Gimo's [futu](https://github.com/masakichi/futu/). I made a use of some codes from his work at navbar template.
+- Gimo's [futu](https://github.com/masakichi/futu/). I made a use of some codes from his work at navbar template.
 
-Oursky's [mockups generator](https://mockuphone.com/).
+- Oursky's [mockups generator](https://mockuphone.com/).
 
 
 

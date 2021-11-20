@@ -4,17 +4,37 @@
 </div>
 
 <p align="center">
-	一款基于<a href="https://github.com/ppoffice/hexo-theme-icarus"> Hexo 主题 Icarus </a>的卡片样式制作的单栏 Hugo 主题
+	一款基于<a href="https://github.com/ppoffice/hexo-theme-icarus/"> Hexo 主题 Icarus </a>的卡片样式制作的单栏 Hugo 主题
 </p>
 <p align="center">
-	<a href="README.md">English Intro</a>
+	<a href="https://github.com/airinghost/hugo-theme-icarus-lite/">English Intro</a>
 </p>
 
 ![](https://hugo-theme-icarus-lite.netlify.app/images/tn.png)
 
 
 
-## 1. 使用指南
+## 特点
+
+卡片 - 每一篇文章都以卡片状呈现。
+
+单 HTML 文件 - CSS 或 JS 都内联在 HTML 文件中。
+
+
+
+## 演示
+
+站点状态:
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/88217dfb-48e7-4579-bb57-b9d76ce3dbc0/deploy-status)](https://hugo-theme-icarus-lite.netlify.app/)
+
+站点文件仓库: 
+
+[hugo-blog-demo](https://github.com/airinghost/hugo-blog-demo/)
+
+
+
+## 使用指南
 
 目前没写。
 
@@ -24,9 +44,9 @@
 
 
 
-## 2. 小小的用法
+## 小小的用法
 
-### 2.1 Front Matter 区域
+### （1） Front Matter 区域
 
 设置 `hidden: true`（YAML格式）或 `hidden = true`（TOML格式，下同）以隐藏该文章于首页视图（使用了 index.html 模板的页面）中。
 
@@ -38,13 +58,13 @@
 
 设置 `link_go: 网址` 和 `link_txt: 自定义文字` 以添加一按钮于文章卡片左下角，点击该按钮可在浏览器新标签页中打开你填入的网址。
 
-### 2.2 正文区域
+### （2） 正文区域
 
 不要忘了手动在正文部分插入 &lt;!--more--&gt; 以生成文章预览，这样看起来更美观。
 
 
 
-## 3. 致谢
+## 致谢
 
 感谢 PPOffice 为 Hexo 制作的如此美观的主题。
 
@@ -54,11 +74,11 @@
 
 感谢腾讯的 [404公益项目](https://wj.qq.com/s2/9163450/732e/)。
 
-感谢 Jeremy Thomas 的 [minireset.css](https://github.com/jgthms/minireset.css) 项目。
+感谢 Jeremy Thomas 的 [minireset.css](https://github.com/jgthms/minireset.css/) 项目。
 
-感谢 Cai Jimmy 的 [Stack](https://github.com/CaiJimmy/hugo-theme-stack) 项目，这是我非常喜欢的一款卡片式 Hugo 主题。我在 index 模板的主体部分中采用了他的一些代码。
+感谢 Cai Jimmy 的 [Stack](https://github.com/CaiJimmy/hugo-theme-stack/) 项目，这是我非常喜欢的一款卡片式 Hugo 主题。我在 index 模板的主体部分中采用了他的一些代码。
 
-感谢元吉先生的 [futu](https://github.com/masakichi/futu) 主题。我在 navbar 模板中采用了他的一些代码。
+感谢元吉先生的 [futu](https://github.com/masakichi/futu/) 主题。我在 navbar 模板中采用了他的一些代码。
 
 感谢 Oursky 提供的 [带壳截图工具](https://mockuphone.com/)。
 

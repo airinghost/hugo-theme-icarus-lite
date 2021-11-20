@@ -26,8 +26,8 @@ params:
 
     ## Buttons Text
     PageBack: "Back to Prev"
-    OlderPosts: "Older Page"
-    NewerPosts: "Newer Page"
+    OlderPosts: "Older"
+    NewerPosts: "Newer"
     read_more: "Read More"
 
     ## for websites hosted on mainland China servers. Just DELETE this whole part if no need

@@ -33,18 +33,18 @@ params:
 
     navbarLogo: 
         enabled: true
-        imgEnabled: true
+        imgEnabled: false
         imgPath: "/favicon.png"  ## at /static folder
         imgWidth: "24px"
         imgHeight: "24px"
-        svgEnabled: false  ## Put your SVG code in /layout/partials/custom-logo.html if enabled
+        svgEnabled: true  ## Put your SVG code in /layout/partials/custom-logo.html if enabled
     
     mainSections: posts  ## This means that you need to put posts .md files in the folder /content/posts/ , then these files can be viewed at Homepage.
 
     ## Buttons Text
     PageBack: "Back to Prev"
-    OlderPosts: "Older Page"
-    NewerPosts: "Newer Page"
+    OlderPosts: "Older"
+    NewerPosts: "Newer"
     read_more: "Read More"
 
     ## for websites hosted on mainland China servers. Just DELETE this whole part if no need
