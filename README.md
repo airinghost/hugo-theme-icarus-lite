@@ -40,7 +40,7 @@ Set `link_go: http://example.com` and `link_txt: customText` to add a button at 
 
 ### 2.2 Body Text
 
-Don't forget to insert `&lt;!--more--&gt;` manually to your post or page file to generate the preview of the article, and it would look better.
+Don't forget to insert &lt;!--more--&gt; manually to your post or page file to generate the preview of the article, and it would look better.
 
 
 
