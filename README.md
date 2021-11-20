@@ -28,7 +28,7 @@ Please don't hesitate to start [Discussions](https://github.com/airinghost/hugo-
 
 ### 2.1 Front Matter
 
-Set `hidden: true` (YAML) / `hidden = true` (TOML) to hide the file from the index (homepage) view (i.e. posts using index template).
+Set `hidden: true` (YAML) / `hidden = true` (TOML) to hide the file from the index (homepage) view (i.e. posts using index.html template).
 
 Set `date_hidden: true` to remove the date text & structure from the top left-hand of the article card in index, list and single views.
 
@@ -40,7 +40,7 @@ Set `link_go: http://example.com` and `link_txt: customText` to add a button at 
 
 ### 2.2 Body Text
 
-Don't forget to insert `<!--more-->` manually to your post or page file to generate the preview of the article, and it would look better.
+Don't forget to insert `&lt;!--more--&gt;` manually to your post or page file to generate the preview of the article, and it would look better.
 
 
 
