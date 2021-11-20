@@ -4,13 +4,13 @@
 </div>
 
 <p align="center">
-	一款基于<a href="https://github.com/ppoffice/hexo-theme-icarus"> Hexo 主题 Icarus </a>的样式制作的单栏、卡片式的 Hugo 主题
+	一款基于<a href="https://github.com/ppoffice/hexo-theme-icarus"> Hexo 主题 Icarus </a>的卡片样式制作的单栏 Hugo 主题
 </p>
 <p align="center">
 	<a href="README.md">English Intro</a>
 </p>
 
-![](https://cdn.jsdelivr.net/gh/airinghost/hugo-theme-icarus-lite/preview.png)
+![](https://hugo-theme-icarus-lite.netlify.app/images/tn.png)
 
 
 
@@ -28,7 +28,7 @@
 
 ### 2.1 Front Matter 区域
 
-设置 `hidden: true`（YAML格式）或 `hidden = true`（TOML格式，下同）以隐藏该文章于首页视图（即使用了 index.html 模板的视图）中。
+设置 `hidden: true`（YAML格式）或 `hidden = true`（TOML格式，下同）以隐藏该文章于首页视图（使用了 index.html 模板的页面）中。
 
 设置 `date_hidden: true` 以隐藏该文章卡片左上角的发布时间及其结构所占用的空间。
 
@@ -40,7 +40,7 @@
 
 ### 2.2 正文区域
 
-手动在正文部分插入 `<!--more-->` 可以让文章的摘要在列表视图中更美观。若不想为文章设置摘要，那么你可以在站点配置文件中设置 `summaryLength: 1000` 或更大的数值，然后再在 `.md` 文件的末尾手动插入 `<!--more-->`。
+不要忘了手动在正文部分插入 `<!--more-->` 以生成文章预览，这样看起来更美观。
 
 
 
@@ -52,8 +52,6 @@
 
 感谢 Janne Kemppainen 的教程《[Implemement Hugo List and Taxonomy Pages](https://pakstech.com/blog/hugo-list-page/)》，该文帮助了我完成 pagination 分页模板。
 
-感谢 filament group 的文章《[The Simplest Way to Load CSS Asynchronously](https://www.filamentgroup.com/lab/load-css-simpler/)》和苏卡卡的《[再快一点，再快一点 —— 优化博客白屏时间的实践](https://blog.skk.moe/post/improve-fcp-for-my-blog/)》。我从他们的文章中学到了如何异步加载 CSS 文件及其原理。
-
 感谢腾讯的 [404公益项目](https://wj.qq.com/s2/9163450/732e/)。
 
 感谢 Jeremy Thomas 的 [minireset.css](https://github.com/jgthms/minireset.css) 项目。
@@ -61,6 +59,8 @@
 感谢 Cai Jimmy 的 [Stack](https://github.com/CaiJimmy/hugo-theme-stack) 项目，这是我非常喜欢的一款卡片式 Hugo 主题。我在 index 模板的主体部分中采用了他的一些代码。
 
 感谢元吉先生的 [futu](https://github.com/masakichi/futu) 主题。我在 navbar 模板中采用了他的一些代码。
+
+感谢 Oursky 提供的 [带壳截图工具](https://mockuphone.com/)。
 
 
 

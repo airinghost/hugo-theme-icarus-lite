@@ -1,3 +1,7 @@
+module:
+    hugoVersion:
+        extended: false
+        min: "0.87.0"
 
 ## If you have created a new hugo site and dont know how to do next, just DELETE config.toml file at its root directory and get the copy the example config file in exampleSite folder.
 

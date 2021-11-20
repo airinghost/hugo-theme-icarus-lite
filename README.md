@@ -4,13 +4,13 @@
 </div>
 
 <p align="center">
-	A single-column and card-style Hugo theme based on the<a href="https://github.com/ppoffice/hexo-theme-icarus"> Hexo theme Icarus</a>
+	A single-column Hugo theme based on the <a href="https://github.com/ppoffice/hexo-theme-icarus">Hexo theme Icarus</a>'s card style
 </p>
 <p align="center">
 	<a href="README.zh-CN.md">中文（简体）说明</a>
 </p>
 
-![](https://cdn.jsdelivr.net/gh/airinghost/hugo-theme-icarus-lite/preview.png)
+![](https://hugo-theme-icarus-lite.netlify.app/images/tn.png)
 
 
 
@@ -40,7 +40,7 @@ Set `link_go: http://example.com` and `link_txt: customText` to add a button at 
 
 ### 2.2 Body Text
 
-Insert `<!--more-->` manually to your post or page file and it would look better. Or Set `summaryLength: 1000` or more in Site Config and then insert `<!--more-->` at the end of the `.md` file if you would not like to make a summary of your posts or pages. 
+Don't forget to insert `<!--more-->` manually to your post or page file to generate the preview of the article, and it would look better.
 
 
 
@@ -52,15 +52,15 @@ Pedro Lopez's [*Creating a Hugo Theme From Scratch*](https://retrolog.io/blog/cr
 
 Janne Kemppainen's [*Implemement Hugo List and Taxonomy Pages*](https://pakstech.com/blog/hugo-list-page/) helped me a lot on pagination.
 
-filament group's [*The Simplest Way to Load CSS Asynchronously*](https://www.filamentgroup.com/lab/load-css-simpler/) and Sukka's [*Improve FCP for My Blog*](https://blog.skk.moe/post/improve-fcp-for-my-blog/). I learnt a way of loading CSS files asynchronously from their posts.
-
 Tencent's [404 project](https://wj.qq.com/s2/9163450/732e/).
 
-Jeremy Thomas's [minireset.css](https://github.com/jgthms/minireset.css).
+Jeremy Thomas's [minireset.css](https://github.com/jgthms/minireset.css/).
 
-Cai Jimmy's [Stack](https://github.com/CaiJimmy/hugo-theme-stack), a great card-style Hugo theme I like very much. And I made a use of some codes from his work, such as the main section at index template.
+Cai Jimmy's [Stack](https://github.com/CaiJimmy/hugo-theme-stack/), a great card-style Hugo theme I like very much. And I made a use of some codes from his work, such as the main section at index template.
 
-Gimo's [futu](https://github.com/masakichi/futu). I made a use of some codes from his work at navbar template.
+Gimo's [futu](https://github.com/masakichi/futu/). I made a use of some codes from his work at navbar template.
+
+Oursky's [mockups generator](https://mockuphone.com/).
 
 
 
