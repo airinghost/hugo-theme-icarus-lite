@@ -89,3 +89,8 @@ Don't forget to insert &lt;!--more--&gt; manually to your post or page file to g
 Hugo's `list.html` template enables us to build a list page in index(homepage) view. So if you are searching for the way to make Hexo generate pages like Hugo's list template, then I would like to recommend Jamling's work [`hexo-generator-index2`](https://github.com/Jamling/hexo-generator-index2).
 
 
+
+## Repo Stats
+
+[![HITS Unavailable](https://hits.dwyl.com/airinghost/hugo-theme-icarus-lite.svg?style=flat)](https://github.com/dwyl/hits)
+
