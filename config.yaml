@@ -8,6 +8,7 @@ module:
 ## Your posts files should be in /content/posts/ folder. See the [params.mainSections] section below.
 
 params:
+    description:      ## Site description
 
     dateFormat: "Jan 2, 2006"
 

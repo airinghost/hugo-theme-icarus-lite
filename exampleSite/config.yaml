@@ -59,11 +59,13 @@ menu:
   home:
   - identifier: "posts"  ## This identifier value needs to be equal to the [params.mainSections] above
     name: "HOME"  ## The NAME will show as menu text
+    title: Home
     url: /
     weight: 1
   main:
   - identifier: "pages"  ## Each identifier value should be unique and equal to the name of the FOLDER in which those original .md files are
     name: "PAGES"
+    title: Pages / Custom Title
     url: /pages/
     weight: 2
   ## Try to ollow these rules to add menus as you like  
