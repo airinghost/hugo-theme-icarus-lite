@@ -59,7 +59,7 @@ menu:
   home:
   - identifier: "posts"  ## This identifier value needs to be equal to the [params.mainSections] above
     name: "HOME"  ## The NAME will show as menu text
-    title: Home
+    title: Home  ## The TITLE will show on the Browser
     url: /
     weight: 1
   main:
