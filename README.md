@@ -36,7 +36,7 @@ Site Repo:
 
 ## Documentation
 
-No Docs now.
+Read [exampleSite configuration](https://github.com/airinghost/hugo-theme-icarus-lite/blob/main/exampleSite/config.yaml).
 
 Please don't hesitate to start [Discussions](https://github.com/airinghost/hugo-theme-icarus-lite/discussions) in this repo if any questions or problems.
 

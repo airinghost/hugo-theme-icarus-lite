@@ -1,6 +1,8 @@
 ## config example
 
-## If you have created a new hugo site and dont know how to do next, just DELETE config.toml file at its root directory and get the copy the example config file in exampleSite folder.
+## If you have created a new hugo site and dont know how to do next, 
+## just DELETE config.toml file at the site root directory 
+## and then copy all the files from exampleSite folder to site root folder (that you just created).
 
 ## Your posts files should be in /content/posts/ folder. See the [params.mainSections] section below.
 
@@ -19,7 +21,7 @@ summaryLength: 1000
 paginate: 10
 
 permalinks:
-  posts: /:year/:title/
+  posts: /:section/:filename/
   pages: /:section/:filename/
 
 

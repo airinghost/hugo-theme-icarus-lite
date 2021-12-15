@@ -36,7 +36,7 @@
 
 ## 使用指南
 
-目前没写。
+[点此阅读配置文件示例](https://github.com/airinghost/hugo-theme-icarus-lite/blob/main/exampleSite/config.yaml)。
 
 使用前或使用过程中如有任何疑问或问题，不要犹豫，请点击上方的 [Discussions](https://github.com/airinghost/hugo-theme-icarus-lite/discussions) 栏目发帖。
 
