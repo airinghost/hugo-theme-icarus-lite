@@ -5,15 +5,11 @@
         {{- if $logo.enabled -}}
 
             {{- if $logo.imgEnabled -}}
-            <div class="logo">
                 <img src="{{ $logo.imgPath }}" loading="lazy" width="{{ $logo.imgWidth }}" height="{{ $logo.imgHeight }}">
-            </div>
             {{- end -}}
 
             {{- if $logo.svgEnabled -}}
-            <div class="logo">
                 {{- partial "custom-logo.html" . -}}
-            </div>
             {{- end -}}
 
         {{- end -}}

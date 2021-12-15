@@ -109,7 +109,6 @@ nav {
   -webkit-box-shadow: rgba(0, 0, 0,.1) 0 4px 6px -1px;
   box-shadow: rgba(0, 0, 0,.1) 0 4px 6px -1px;
   display: block;
-  height: 3.2rem;
   overflow-x: hidden;
   position: fixed;
     top: 0;
@@ -119,44 +118,36 @@ nav {
 }
 
 nav .container {
+  align-items: center;
+  display: flex;
   font-size: 1.15rem;
+  height: 3.2rem;
+  line-height: 3.2rem;
   overflow-x: auto;
   padding-top: 0;
   padding-bottom: 0;
   white-space: nowrap;
 }
 
-nav .logo {
-  align-items: center;
-  display: inline-flex;
-  height: 1.77rem;
-  width: 1.77rem;
-  justify-content: center;
+nav .container img, nav .container svg {
+  height: auto;
   margin-left: .35rem;
   margin-right: .5rem;
-  position: relative;
-  vertical-align: middle;
 }
 
-nav a {
+nav .container a {
   background-color: white;
   color: black;
-  display: inline-flex;
   font-size: 1em;
-  height: 3.2rem;
-  line-height: 3.2rem;
-  justify-content: center;
+  height: auto;
   padding: 0 .35rem;
-  position: relative;
-  text-align: center;
-  vertical-align: middle;
 }
 
-nav a.menu-active {
-  color: #3273dc;
+nav .container a.menu-active {
+  color: #06c;
 }
 
-nav a:hover {
+nav .container a:hover {
   background-color: #f5f5f5;
 }
 
