@@ -25,21 +25,24 @@ permalinks:
 
 ## Custom Params
 params:
+    description:      ## Site description
 
     dateFormat: "Jan 2, 2006"
 
-    footerCopyright: 
-        siteUrl: Your Domain / Name  ## This would show after footer text "© 202X"
+    externalStyle: false  ## Set false to use internal style; true to external CSS file.
+    externalStyleVersion: 20060102  ## If you need to refresh the CSS file for browsers, then change this number.
+    
+    mainSections: posts  ## This means that you need to put posts .md files in the folder /content/posts/ , then these files can be viewed at Homepage.
+
+    navbarSticky: true  ## Set to true to make navbar menu sticky
 
     navbarLogo: 
         enabled: true
         imgEnabled: false
-        imgPath: "/favicon.png"  ## at /static folder
+        imgPath: "/logo.svg"  ## at /static folder
         imgWidth: "24px"
         imgHeight: "24px"
         svgEnabled: true  ## Put your SVG code in /layout/partials/custom-logo.html if enabled
-    
-    mainSections: posts  ## This means that you need to put posts .md files in the folder /content/posts/ , then these files can be viewed at Homepage.
 
     ## Buttons Text
     PageBack: "Back to Prev"
@@ -47,7 +50,10 @@ params:
     NewerPosts: "Newer"
     read_more: "Read More"
 
-    ## for websites hosted on mainland China servers. Just DELETE this whole part if no need
+    footerCopyright: 
+        siteUrl: Your Domain / Name  ## This would show after footer text "© 202X"
+
+    ## for websites hosted on mainland China servers.
     ## 下面这部分是页脚的备案信息
     ICP: 
         enabled: false
@@ -70,8 +76,8 @@ menu:
     weight: 2
   ## Try to ollow these rules to add menus as you like  
   - identifier: "me"
-    name: "ABOUT"
-    url: /about/
+    name: "404"
+    url: /404/
     weight: 3
 
 markup:

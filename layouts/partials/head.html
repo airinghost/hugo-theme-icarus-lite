@@ -39,6 +39,21 @@
         {{- partial "internal-style.html" . -}}
     {{ end }}
 
+    {{ if .Site.Params.navbarSticky }}
+    <style>
+        body {
+            padding-top: 3.2rem;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            z-index: 1;
+        }
+    </style>
+    {{ end }}
+
     {{- partial "custom-style.html" . -}}
 
     {{- partial "custom-head.html" . -}}
