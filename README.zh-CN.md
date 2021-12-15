@@ -80,6 +80,10 @@
 
 感谢元吉先生的 [futu](https://github.com/masakichi/futu/) 主题。我在 navbar 模板中采用了他的一些代码。
 
+感谢 GoHugo 官方的主题 [GoHugo Sites Theme](https://github.com/gohugoio/gohugoioTheme)。我引用了它的代码块CSS。
+
+感谢 filament group 的文章《[The Simplest Way to Load CSS Asynchronously](https://www.filamentgroup.com/lab/load-css-simpler/)》和苏卡卡的《[再快一点，再快一点 —— 优化博客白屏时间的实践](https://blog.skk.moe/post/improve-fcp-for-my-blog/)》。我从他们的文章中学到了如何异步加载 CSS 文件及其原理。
+
 感谢 Oursky 提供的 [带壳截图工具](https://mockuphone.com/)。
 
 
