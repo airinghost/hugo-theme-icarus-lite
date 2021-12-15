@@ -12,13 +12,16 @@ params:
 
     dateFormat: "Jan 2, 2006"
 
+    externalStyle: false  ## Set false to use internal style; true to external CSS file.
+    externalStyleVersion: 20060102  ## If you need to refresh the CSS file for browsers, then change this number.
+
     footerCopyright: 
         siteUrl: Your Domain / Name  ## This would show after footer text "© 202X"
 
     navbarLogo: 
         enabled: true
         imgEnabled: false
-        imgPath: "/favicon.svg"  ## at /static folder
+        imgPath: "/logo.svg"  ## at /static folder
         imgWidth: "24px"
         imgHeight: "24px"
         svgEnabled: true  ## Put your SVG code in /layout/partials/custom-logo.html if enabled

@@ -30,7 +30,16 @@
 
     <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
 
-    {{- partial "internal-style.html" . -}}
+    {{ if .Site.Params.externalStyle }}
+    {{ $css := resources.Get "css/style.css" }}
+    {{ $style := $css | resources.Minify }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}?v={{ .Site.Params.externalStyleVersion }}" media="print" onload="this.media='all'; this.onload = null">
+    <noscript><link rel="stylesheet" href="{{ $style.RelPermalink }}?v={{ .Site.Params.externalStyleVersion }}"></noscript>
+    {{ else }}
+        {{- partial "internal-style.html" . -}}
+    {{ end }}
+
+    {{- partial "custom-style.html" . -}}
 
     {{- partial "custom-head.html" . -}}
 
