@@ -14,7 +14,7 @@
                 {{ else }}
                     {{ $dateTime := .PublishDate.Format "2006-01-02" }}
                     {{ $dateFormat := .Site.Params.dateFormat }}
-                <time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time>
+                <div class="time" datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</div>
                 {{ end }}
 
                 <h2 class="title">{{ .Title }}</h2>
