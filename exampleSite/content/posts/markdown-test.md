@@ -4,7 +4,9 @@ date: 2021-12-15
 read_more: true
 ---
 
-GitHub Repo: [Markdown Test File](https://github.com/mxstbr/markdown-test-file)
+Original GitHub Repo: [Markdown Test File](https://github.com/mxstbr/markdown-test-file)
+
+I modified the contents section.
 
 <hr>
 
@@ -20,24 +22,16 @@ Full credits for that idea go to [this StackOverflow question](https://stackover
 
 *   [Overview](#overview)
     *   [Philosophy](#philosophy)
-    *   [Inline HTML](#html)
-    *   [Automatic Escaping for Special Characters](#autoescape)
-*   [Block Elements](#block)
-    *   [Paragraphs and Line Breaks](#p)
-    *   [Headers](#header)
-    *   [Blockquotes](#blockquote)
-    *   [Lists](#list)
-    *   [Code Blocks](#precode)
-    *   [Horizontal Rules](#hr)
-*   [Span Elements](#span)
-    *   [Links](#link)
-    *   [Emphasis](#em)
+*   [Block Elements](#block-elements)
+    *   [Paragraphs and Line Breaks](#paragraphs-and-line-breaks)
+    *   [Headers](#headers)
+    *   [Blockquotes](#blockquotes)
+    *   [Lists](#lists)
+    *   [Code Blocks](#code-blocks)
+*   [Span Elements](#span-elements)
+    *   [Links](#links)
+    *   [Emphasis](#emphasis)
     *   [Code](#code)
-    *   [Images](#img)
-*   [Miscellaneous](#misc)
-    *   [Backslash Escapes](#backslash)
-    *   [Automatic Links](#autolink)
-
 
 ----
 

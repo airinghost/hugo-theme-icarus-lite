@@ -82,16 +82,33 @@ menu:
     url: /404/
     weight: 3
 
+## Docs: https://gohugo.io/getting-started/configuration-markup#goldmark
 markup:
-    goldmark:
-        renderer:
-            unsafe: true  ## Set to true if you have HTML content inside Markdown
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute:
+        block: false
+        title: true
+      autoHeadingID: true  ## Set to false if you neet to customize the headings' IDs
+      autoHeadingIDType: github
+    renderer:
+      hardWraps: false
+      unsafe: true  ## Set to true if you have HTML content inside Markdown
+      xhtml: false
 
 ## Decrease the size of .html and .css files
 minify:
   disableCSS: false
   disableHTML: false
-  disableJS: false
+  disableJS: true
   disableJSON: false
   disableSVG: false
   disableXML: false
