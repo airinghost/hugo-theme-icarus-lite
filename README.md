@@ -80,9 +80,11 @@ Don't forget to insert &lt;!--more--&gt; manually to your post or page file to g
 
 - Gimo's [futu](https://github.com/masakichi/futu/). I made a use of some codes from his work at navbar template.
 
-- GoHugo's [GoHugo Sites Theme](https://github.com/gohugoio/gohugoioTheme). It's stylesheet for codeblock is useful.
+- GoHugo's [GoHugo Sites Theme](https://github.com/gohugoio/gohugoioTheme). It's stylesheets for codeblock and table are useful.
 
 - filament group's [*The Simplest Way to Load CSS Asynchronously*](https://www.filamentgroup.com/lab/load-css-simpler/) and Sukka's [*Improve FCP for My Blog*](https://blog.skk.moe/post/improve-fcp-for-my-blog/). I learnt a way of loading CSS files asynchronously from their posts.
+
+- Aditya Telange's [PaperMod](https://github.com/adityatelange/hugo-PaperMod): Markdown Syntax test file。
 
 - Oursky's [mockups generator](https://mockuphone.com/).
 
