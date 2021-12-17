@@ -291,6 +291,10 @@ ul {
   margin-left: 1.2em;
 }
 
+ul ul {
+  list-style-type: circle;
+}
+
 ol {
   margin-left: 1.2em;
 }
