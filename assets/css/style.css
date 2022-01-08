@@ -60,7 +60,7 @@ body {
 }
 
 .container {
-  font-family: Helvetica Neue, Helvetica, PingFang SC, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Microsoft YaHei, Baskerville SemiBold, Book Antiqua, Optima, Palatino, Droid Serif, sans-serif, serif;
+  font-family: system-ui, sans-serif, serif;
   font-size: 1rem;
   flex-grow: 1;
   margin: 0 auto;
@@ -70,30 +70,27 @@ body {
 }
 
 a {
-    color: #3273dc;
-    cursor: pointer;
-    text-decoration: none;
+  color: #36b;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 a:visited {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 del {
-  -webkit-text-decoration-line: line-through;
-          text-decoration-line: line-through;
-  -webkit-text-decoration-color: #222;
-          text-decoration-color: #222;
-  -webkit-text-decoration-style: solid;
-          text-decoration-style: solid;
+  text-decoration-line: line-through;
+  text-decoration-color: #222;
+  text-decoration-style: solid;
   text-decoration-thickness: 1px ;
 }
 
 hr {
-    border: 1px solid #f5f5f5;
-    box-shadow: none;
-    margin: .8em 0 .9em 0;
-    background-color: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  box-shadow: none;
+  margin: .8em 0 .9em 0;
+  background-color: #f5f5f5;
 }
 
 small {
@@ -138,7 +135,7 @@ nav a {
 }
 
 nav a.menu-active {
-  color: #06c;
+  color: #1558d6;
 }
 
 nav a:hover {
@@ -219,7 +216,7 @@ p:last-child {
 
 
 article a.button {
-  background-color: #f5f5f5;
+  background-color: #f3f3f3;
   border: 1px solid transparent;
   border-radius: 0.35rem;
   -webkit-box-shadow: none;
