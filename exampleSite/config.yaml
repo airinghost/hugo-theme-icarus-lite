@@ -52,6 +52,15 @@ params:
     NewerPosts: "Newer"
     read_more: "Read More"
 
+    ## Body Text
+    titleClickable: false  # Set true to make the title clickable as the ReadMore button
+    
+    postsNoSummary: false  ## Set true to always show full content for Posts
+    pagesNoSummary: false  ## Set true to always show full content for Pages
+
+    postsReadMore: false  ## Set true to always show Read More button for Posts
+    pagesReadMore: false  ## Set true to always show Read More button for Pages
+
     footerCopyright: 
         siteUrl: Your Domain / Name  ## This would show after footer text "© 202X"
 
