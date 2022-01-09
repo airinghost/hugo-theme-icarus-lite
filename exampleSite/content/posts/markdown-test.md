@@ -6,7 +6,7 @@ read_more: true
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
 
-[Click here to read the unrendered version](https://github.com/airinghost/hugo-theme-icarus-lite/blob/main/exampleSite/content/posts/markdown-test.md?plain=1).
+[Click here to read the unrendered version.](https://github.com/airinghost/hugo-theme-icarus-lite/blob/main/exampleSite/content/posts/markdown-test.md?plain=1)
 
 <!--more-->
 
@@ -111,10 +111,6 @@ Tables aren't part of the core Markdown spec, but Hugo supports them out-of-the-
 </body>
 </html>
 {{< /highlight >}}
-
-#### Gist
-
-{{< gist spf13 7896402 >}}
 
 ## List Types
 
