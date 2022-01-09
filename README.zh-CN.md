@@ -26,7 +26,7 @@
 
 站点状态:
 
-[![Netlify Status](https://hugo-theme-icarus-lite.netlify.app/images/netlify.success.svg)](https://hugo-theme-icarus-lite.netlify.app/)
+[![Netlify Status](https://hugo-theme-icarus-lite.netlify.app/images/netlify.success.svg)](https://icarus-lite.zhangjet.com/)
 
 站点文件仓库: 
 
@@ -58,9 +58,11 @@
 
 设置 `link_go: 网址` 和 `link_txt: 自定义文字` 以添加一按钮于文章卡片左下角，点击该按钮可在浏览器新标签页中打开你填入的网址。
 
+设置 `no_summary: true` 可以单独为当前文章取消摘要，使文章完整内容全部显示于卡片上（config 配置文件中有此项功能的全局设置）。
+
 ### （2） 正文区域
 
-不要忘了手动在正文部分插入 &lt;!--more--&gt; 以生成文章预览，这样看起来更美观。
+不要忘了手动在正文部分插入 &lt;!--more--&gt; 以生成文章预览（摘要），这样看起来更美观。
 
 
 
@@ -87,6 +89,8 @@
 感谢 Aditya Telange 的 [PaperMod 主题](https://github.com/adityatelange/hugo-PaperMod) 提供的 Markdown Syntax 测试文件。
 
 感谢 Oursky 提供的 [带壳截图工具](https://mockuphone.com/)。
+
+感谢维基共享资源的 [外链图标](https://commons.m.wikimedia.org/w/load.php?modules=skins.minerva.content.styles.images&image=a.external%2C+.mw-parser-output+a.external) 和 Yoksel 的 [Url encoder for SVG](https://github.com/yoksel/url-encoder/)。
 
 
 

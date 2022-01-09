@@ -8,6 +8,7 @@ read_more: true
 read_more_txt: 
 link_go: 
 link_txt: 
+no_summary: false
 ---
 Summary
 

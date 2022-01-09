@@ -26,7 +26,7 @@ Single HTML file - Fully inline or internal Style Sheet and JavaScript.
 
 Site Status:
 
-[![Netlify Status](https://hugo-theme-icarus-lite.netlify.app/images/netlify.success.svg)](https://hugo-theme-icarus-lite.netlify.app/)
+[![Netlify Status](https://hugo-theme-icarus-lite.netlify.app/images/netlify.success.svg)](https://icarus-lite.zhangjet.com/)
 
 Site Repo: 
 
@@ -58,9 +58,11 @@ Set `read_more_txt: customText` to overwrite the text for the read-more button m
 
 Set `link_go: http://example.com` and `link_txt: customText` to add a button at the bottom left-hand of the article card in index or list views; it would open the link you set in a new tab in the browser.
 
+Set `no_summary: true` to disable the summary for the current post，i.e. to show the full content on the card（this can be set globally in the config）。
+
 ### (2) Body Text
 
-Don't forget to insert &lt;!--more--&gt; manually to your post or page file to generate the preview of the article, and it would look better.
+Don't forget to insert &lt;!--more--&gt; manually to your post or page file to generate the preview (summary) of the article, and it would look better.
 
 
 
@@ -87,6 +89,8 @@ Don't forget to insert &lt;!--more--&gt; manually to your post or page file to g
 - Aditya Telange's [PaperMod](https://github.com/adityatelange/hugo-PaperMod): Markdown Syntax test file。
 
 - Oursky's [mockups generator](https://mockuphone.com/).
+
+- Wikimedia Commons's [external link icon](https://commons.m.wikimedia.org/w/load.php?modules=skins.minerva.content.styles.images&image=a.external%2C+.mw-parser-output+a.external) and Yoksel's [Url encoder for SVG](https://github.com/yoksel/url-encoder/).
 
 
 
