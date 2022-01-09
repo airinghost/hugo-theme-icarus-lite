@@ -17,7 +17,11 @@
                 <div class="time" datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</div>
                 {{ end }}
 
+                {{ if .Site.Params.titleClickable }}
+                <h2 class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+                {{ else }}
                 <h2 class="title">{{ .Title }}</h2>
+                {{ end }}
 
                 <div class="text">{{ .Summary }}</div>
 

@@ -35,6 +35,9 @@ params:
     NewerPosts: "Newer"
     read_more: "Read More"
 
+    ## Body Text
+    titleClickable: false  # Set true to make the title clickable as the ReadMore button
+
     footerCopyright: 
         siteUrl: Your Domain / Name  ## This would show after footer text "© 202X"
 
