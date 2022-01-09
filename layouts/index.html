@@ -33,14 +33,25 @@
                     {{ end }}
                 {{ end }}
 
-                {{ if .Params.read_more }}
+                {{ if .Site.Params.postsReadMore }}
                 <a class="button" href="{{.RelPermalink}}">
-                    {{ if .Params.read_more_txt }}
-                        {{ .Params.read_more_txt }}
+                    {{ with .Params.read_more_txt }}
+                        {{ . }}
                 </a>
                     {{ else }}
-                        {{ $.Site.Params.read_more }}
+                        {{ .Site.Params.read_more }}
                 </a>
+                    {{ end }}
+                {{ else }}
+                    {{ if .Params.read_more }}
+                    <a class="button" href="{{.RelPermalink}}">
+                        {{ with .Params.read_more_txt }}
+                            {{ . }}
+                    </a>
+                        {{ else }}
+                            {{ .Site.Params.read_more }}
+                    </a>
+                        {{ end }}
                     {{ end }}
                 {{ end }}
 

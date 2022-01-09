@@ -28,16 +28,27 @@
                     {{ end }}
                 {{ end }}
 
-            {{ if .Params.read_more }}
-            <a class="button" href="{{.RelPermalink}}">
-                {{ if .Params.read_more_txt }}
-                    {{ .Params.read_more_txt }}
-            </a>
+                {{ if .Site.Params.postsReadMore }}
+                <a class="button" href="{{.RelPermalink}}">
+                    {{ with .Params.read_more_txt }}
+                        {{ . }}
+                </a>
+                    {{ else }}
+                        {{ .Site.Params.read_more }}
+                </a>
+                    {{ end }}
                 {{ else }}
-                    {{ $.Site.Params.read_more }}
-            </a>
+                    {{ if .Params.read_more }}
+                    <a class="button" href="{{.RelPermalink}}">
+                        {{ with .Params.read_more_txt }}
+                            {{ . }}
+                    </a>
+                        {{ else }}
+                            {{ .Site.Params.read_more }}
+                    </a>
+                        {{ end }}
+                    {{ end }}
                 {{ end }}
-            {{ end }}
 
             {{ if .Params.link_go }}
             <a class="button" href="{{ .Params.link_go }}" target="_blank" rel="noopener">{{ .Params.link_txt }}</a>
