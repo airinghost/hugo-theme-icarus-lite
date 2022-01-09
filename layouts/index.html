@@ -23,7 +23,15 @@
                 <h2 class="title">{{ .Title }}</h2>
                 {{ end }}
 
-                <div class="text">{{ .Summary }}</div>
+                {{ if .Site.Params.postsNoSummary }}
+                <div class="text">{{ .Content }}</div>
+                {{ else }}
+                    {{ if .Params.no_summary }}
+                    <div class="text">{{ .Content }}</div>
+                    {{ else }}
+                    <div class="text">{{ .Summary }}</div>
+                    {{ end }}
+                {{ end }}
 
                 {{ if .Params.read_more }}
                 <a class="button" href="{{.RelPermalink}}">
