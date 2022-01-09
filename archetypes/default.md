@@ -8,6 +8,8 @@ read_more_txt:
 link_go: 
 link_txt: 
 ---
-Text Shown in Summary and Details
+Summary
+
 <!--more-->
-Text only Shown in Details
+
+Details

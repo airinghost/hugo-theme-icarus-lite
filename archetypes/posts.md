@@ -1,6 +1,6 @@
 ---
-draft: false
 hidden: false
+draft: false
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 date_hidden: false
@@ -9,6 +9,8 @@ read_more_txt:
 link_go: 
 link_txt: 
 ---
-Text Shown in Summary and Details
+Summary
+
 <!--more-->
-Text only Shown in Details
+
+Details
