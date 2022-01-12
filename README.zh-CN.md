@@ -10,7 +10,7 @@
 	<a href="https://github.com/airinghost/hugo-theme-icarus-lite/">English Intro</a>
 </p>
 
-![](https://hugo-theme-icarus-lite.netlify.app/images/tn.png)
+![](https://icarus-lite.zhangjet.com/images/tn.png)
 
 
 
@@ -24,9 +24,9 @@
 
 ## 演示
 
-站点状态:
+站点:
 
-[![Netlify Status](https://hugo-theme-icarus-lite.netlify.app/images/netlify.success.svg)](https://icarus-lite.zhangjet.com/)
+[icarus-lite.zhangjet.com](https://icarus-lite.zhangjet.com/)
 
 站点文件仓库: 
 
@@ -74,7 +74,7 @@
 
 感谢 Janne Kemppainen 的教程《[Implemement Hugo List and Taxonomy Pages](https://pakstech.com/blog/hugo-list-page/)》，该文帮助了我完成 pagination 分页模板。
 
-感谢腾讯的 [404公益项目](https://wj.qq.com/s2/9163450/732e/)。
+感谢腾讯的 [404公益项目](https://www.qq.com/404/)。
 
 感谢 Jeremy Thomas 的 [minireset.css](https://github.com/jgthms/minireset.css/) 项目。
 

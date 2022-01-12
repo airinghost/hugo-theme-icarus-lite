@@ -10,7 +10,7 @@
 	<a href="https://github.com/airinghost/hugo-theme-icarus-lite/blob/main/README.zh-CN.md">中文（简体）说明</a>
 </p>
 
-![](https://hugo-theme-icarus-lite.netlify.app/images/tn.png)
+![](https://icarus-lite.zhangjet.com/images/tn.png)
 
 
 
@@ -24,9 +24,9 @@ Single HTML file - Fully inline or internal Style Sheet and JavaScript.
 
 ## Demo
 
-Site Status:
+Site:
 
-[![Netlify Status](https://hugo-theme-icarus-lite.netlify.app/images/netlify.success.svg)](https://icarus-lite.zhangjet.com/)
+[icarus-lite.zhangjet.com](https://icarus-lite.zhangjet.com/)
 
 Site Repo: 
 
@@ -74,7 +74,7 @@ Don't forget to insert &lt;!--more--&gt; manually to your post or page file to g
 
 - Janne Kemppainen's [*Implemement Hugo List and Taxonomy Pages*](https://pakstech.com/blog/hugo-list-page/) helped me a lot on pagination.
 
-- Tencent's [404 project](https://wj.qq.com/s2/9163450/732e/).
+- Tencent's [404 project](https://www.qq.com/404/).
 
 - Jeremy Thomas's [minireset.css](https://github.com/jgthms/minireset.css/).
 
