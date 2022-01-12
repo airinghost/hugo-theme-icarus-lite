@@ -1,5 +1,5 @@
 
-<div align="center"><img width="48" height="48" src="https://hugo-theme-icarus-lite.netlify.app/logo.svg">
+<div align="center"><img width="48" height="48" src="https://icarus-lite.zhangjet.com/logo.svg">
 <br><h2>Icarus-Lite</h2>
 </div>
 
