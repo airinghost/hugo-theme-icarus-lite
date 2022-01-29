@@ -60,13 +60,17 @@ body {
 }
 
 .container {
-  font-family: system-ui, sans-serif, serif;
+  font-family: Iowan Old Style, Palatino Linotype, Palatino, Candara, Georgia, Helvetica Neue, Helvetica, STZhongsong, PingFang SC, DengXian, Microsoft YaHei, system-ui, -apple-system, BlinkMacSystemFont, Droid Serif, sans-serif, serif;
   font-size: 1rem;
   flex-grow: 1;
   margin: 0 auto;
   padding: 1rem;
   position: relative;
   width: 100%;
+}
+
+nav .container, footer .container {
+  font-family: Avenir Next Condensed, Avenir, Roboto Condensed, sans-serif-condensed, PingFang SC, Segoe UI, Microsoft YaHei Light, system-ui, -apple-system, BlinkMacSystemFont, sans-serif, serif;
 }
 
 a {
@@ -80,9 +84,7 @@ a:visited {
 }
 
 del {
-  text-decoration-line: line-through;
-  text-decoration-color: #222;
-  text-decoration-style: solid;
+  text-decoration: line-through solid #222;
   text-decoration-thickness: 1px ;
 }
 
@@ -223,7 +225,6 @@ article a.button {
   color: #222;
   display: inline-flex;
   font-size: .8em;
-  height: 2.1em;
   line-height: 2.1em;
   margin-top: 1em;
   padding: 0 .35em;
