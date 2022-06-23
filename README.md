@@ -7,7 +7,7 @@
 	A single-column Hugo theme based on the <a href="https://github.com/ppoffice/hexo-theme-icarus/">Hexo theme Icarus</a>'s card style
 </p>
 <p align="center">
-	<a href="https://github.com/airinghost/hugo-theme-icarus-lite/blob/main/README.zh-CN.md">中文（简体）说明</a>
+	<a href="https://github.com/airinghost/hugo-theme-icarus-lite/blob/main/README.zh-CN.md">中文说明</a>
 </p>
 
 ![](https://icarus-lite.zhangjet.com/images/tn.png)
@@ -24,13 +24,7 @@ Single HTML file - Fully inline or internal Style Sheet and JavaScript.
 
 ## Demo
 
-Site:
-
-[icarus-lite.zhangjet.com](https://icarus-lite.zhangjet.com/)
-
-Site Repo: 
-
-[hugo-blog-demo](https://github.com/airinghost/hugo-blog-demo/)
+https://icarus-lite.zhangjet.com/
 
 
 

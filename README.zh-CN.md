@@ -24,13 +24,7 @@
 
 ## 演示
 
-站点:
-
-[icarus-lite.zhangjet.com](https://icarus-lite.zhangjet.com/)
-
-站点文件仓库: 
-
-[hugo-blog-demo](https://github.com/airinghost/hugo-blog-demo/)
+https://icarus-lite.zhangjet.com/
 
 
 
