@@ -1,11 +1,11 @@
 name = "Icarus-Lite"
 license = "MIT"
-licenselink = "https://github.com/airinghost/hugo-theme-icarus-lite/blob/master/LICENSE"
+licenselink = "https://github.com/airinghost/hugo-theme-icarus-lite/blob/main/LICENSE"
 description = "A single-column Hugo theme based on the Hexo theme Icarus's card style"
 
 homepage = "https://github.com/airinghost/hugo-theme-icarus-lite/"
 
-demosite = "https://hugo-theme-icarus-lite.netlify.app"
+demosite = "https://icarus-lite.zhangjet.com"
 
 tags = ["blog", "diary"]
 features = ["card", "responsive"]
