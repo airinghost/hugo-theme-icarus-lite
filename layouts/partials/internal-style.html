@@ -61,7 +61,7 @@ body {
 }
 
 .container {
-  font-family: Iowan Old Style, Palatino Linotype, Palatino, Candara, Georgia, Helvetica Neue, Helvetica, STZhongsong, PingFang SC, DengXian, Microsoft YaHei, system-ui, -apple-system, BlinkMacSystemFont, Droid Serif, sans-serif, serif;
+  font-family: Iowan Old Style, Georgia, Palatino Linotype, Palatino, Candara, Helvetica Neue, Helvetica, STZhongsong, PingFang SC, DengXian, Microsoft YaHei, system-ui, -apple-system, BlinkMacSystemFont, Droid Serif, sans-serif, serif;
   font-size: 1rem;
   flex-grow: 1;
   margin: 0 auto;
@@ -70,7 +70,7 @@ body {
   width: 100%;
 }
 
-nav .container, footer .container {
+footer .container {
   font-family: Avenir Next Condensed, Avenir, Roboto Condensed, sans-serif-condensed, PingFang SC, Segoe UI, Microsoft YaHei Light, system-ui, -apple-system, BlinkMacSystemFont, sans-serif, serif;
 }
 
@@ -160,13 +160,13 @@ nav a:hover {
   box-shadow: rgba(0, 0, 0,.1) 0 4px 6px -1px, rgba(0, 0, 0,.1) 0 2px 4px -1px;
   margin-bottom: 1.35rem;
   max-width: 100%;
-  padding: .75rem .8rem .9rem .9rem;
+  padding: 1.45rem;
   position: relative;
 }
 
 article {
   line-height: 1.6;
-  text-align: left;
+  text-align: justify;
 }
 
 .time {
@@ -205,6 +205,7 @@ article h2:first-child, .time + h2 {
 }
 
 p {
+  hanging-punctuation: allow-end;
   margin-top: .55em;
   margin-bottom: .55em;
 }
