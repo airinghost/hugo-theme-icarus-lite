@@ -1,4 +1,23 @@
 <style>
+
+@font-face {
+  font-family: Emoji Fonts;
+  src: local(Apple Color Emoji),
+       local(Segoe UI Emoji),
+       local(Segoe UI Symbol),
+       local(Noto Color Emoji);
+  unicode-range: U+1F000-1F644, U+203C-3299;
+}
+
+@font-face {
+  font-family: Latin Condensed;
+  src: local(Avenir Next Condensed),
+       local(Avenir),
+       local(Roboto Condensed),
+       local(sans-serif-condensed);
+  unicode-range: U+0030-U+0039, U+0041-U+005A, U+0061-U+007A;
+}
+
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
 html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
   margin: 0;
@@ -61,7 +80,7 @@ body {
 }
 
 .container {
-  font-family: Iowan Old Style, Georgia, Palatino Linotype, Palatino, Candara, Helvetica Neue, Helvetica, STZhongsong, PingFang SC, DengXian, Microsoft YaHei, system-ui, -apple-system, BlinkMacSystemFont, Droid Serif, sans-serif, serif;
+  font-family: Iowan Old Style, Cambria, Georgia, 华文中宋, STZhongsong, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Emoji Fonts, Candara, Helvetica Neue, Helvetica, Arial, PingFang SC, DengXian, Microsoft YaHei, sans-serif, serif;
   font-size: 1rem;
   flex-grow: 1;
   margin: 0 auto;
@@ -71,7 +90,7 @@ body {
 }
 
 footer .container {
-  font-family: Avenir Next Condensed, Avenir, Roboto Condensed, sans-serif-condensed, PingFang SC, Segoe UI, Microsoft YaHei Light, system-ui, -apple-system, BlinkMacSystemFont, sans-serif, serif;
+  font-family: Latin Condensed, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, TsangerYuMo W02, Candara, Helvetica Neue, Helvetica, Arial, sans-serif, serif;
 }
 
 a {
