@@ -50,7 +50,8 @@ Set `read_more: true` to add a button at the bottom left-hand of the article car
 
 Set `read_more_txt: customText` to overwrite the text for the read-more button mentioned above.
 
-Set `link_go: http://example.com` and `link_txt: customText` to add a button at the bottom left-hand of the article card in index or list views; it would open the link you set in a new tab in the browser.
+Set `link_go: http://example.com` and `link_txt: customText` to add a button at the bottom left-hand of the article card in index or list views; it would open the link you set in a new tab in the browser.  
+Set `link_same: true` to open this link in the current tab.
 
 Set `no_summary: true` to disable the summary for the current post，i.e. to show the full content on the card（this can be set globally in the config）。
 

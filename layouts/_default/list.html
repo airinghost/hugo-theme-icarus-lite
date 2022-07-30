@@ -50,9 +50,13 @@
                     {{ end }}
                 {{ end }}
 
-            {{ if .Params.link_go }}
-            <a class="button" href="{{ .Params.link_go }}" target="_blank" rel="noopener">{{ .Params.link_txt }}</a>
-            {{ end }}
+                {{ if .Params.link_go }}
+                    {{ if .Params.link_same }}
+                    <a class="button" href="{{ .Params.link_go }}">{{ .Params.link_txt }}</a>
+                    {{ else }}
+                    <a class="button" href="{{ .Params.link_go }}" target="_blank" rel="noopener">{{ .Params.link_txt }}</a>
+                    {{ end }}
+                {{ end }}
 
         </article>
 
