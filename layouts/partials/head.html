@@ -7,28 +7,33 @@
     {{ if .IsHome }}
     <title>{{ .Site.Title | title }}</title>
     {{ else }}
-        {{- range .Site.Menus.home -}}
-            {{ if eq .Identifier $currentPage.Section }}
-                {{ if .Title }}
-                <title>{{ .Title | title }}</title>
-                {{ else }}
-                <title>{{ $currentPage.Section | title }}</title>
+        {{ if .Params.page_title }}
+        <title>{{ .Params.page_title }}</title>
+        {{ else }}
+            {{ if .Params.Title }}
+            <title>{{ .Params.Title }}</title>
+            {{ else }}
+                {{ if .Site.Menus.main }}
+                    {{ range .Site.Menus.main }}
+                        {{ if eq .Identifier $currentPage.Section }}
+                            {{ with .Title }}
+                            <title>{{ . | title }}</title>
+                            {{ else }}
+                            <title>{{ $currentPage.Section | title }}</title>
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}
                 {{ end }}
             {{ end }}
         {{ end }}
-    {{- end -}}
+    {{ end }}
 
-    {{- range .Site.Menus.main -}}
-        {{ if eq .Identifier $currentPage.Section }}
-            {{ if .Title }}
-            <title>{{ .Title | title }}</title>
-            {{ else }}
-            <title>{{ $currentPage.Section | title }}</title>
-            {{ end }}
-        {{ end }}
-    {{- end -}}
-
-    <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
+    {{ if .IsHome }}
+    <meta name="description" content="{{ $.Site.Params.description }}" />
+    {{ end }}
+    {{ with .Description }}
+    <meta name="description" content="{{ . }}" />
+    {{ end }}
 
     {{ if .Site.Params.externalStyle }}
     {{ $css := resources.Get "css/style.css" }}
