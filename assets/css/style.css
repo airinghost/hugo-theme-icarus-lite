@@ -283,6 +283,8 @@ code {
   font-family: Courier New, Courier, monospace, sans-serif, serif;
   font-size: .875em;
   background-color: #f5f5f5;
+	word-wrap: break-word;
+  word-break: normal;	
   border-radius: 3px;
 }
 
