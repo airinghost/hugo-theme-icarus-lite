@@ -44,7 +44,9 @@ Please don't hesitate to start [Discussions](https://github.com/airinghost/hugo-
 
 Set `hidden: true` (YAML) / `hidden = true` (TOML) to hide the file from the index (homepage) view (i.e. posts using index.html template).
 
-Set `date_hidden: true` to remove the date text & structure from the top left-hand of the article card in index, list and single views.
+Set `date_hidden: true` to remove the date from the article.
+
+Set `title_hidden: true` to remove the title from the article.
 
 Set `read_more: true` to add a button at the bottom left-hand of the article card in index or list views; the button text is set at [Params] section in Config file, you can change it globally.
 
@@ -63,7 +65,7 @@ Don't forget to insert &lt;!--more--&gt; manually to your post or page file to g
 
 ## Acknowledgments
 
-- PPOffice's awesome work on building such a beautiful theme for Hexo.
+- PPOffice's beautiful [Hexo theme Icarus](https://github.com/ppoffice/hexo-theme-icarus/).
 
 - Pedro Lopez's [*Creating a Hugo Theme From Scratch*](https://retrolog.io/blog/creating-a-hugo-theme-from-scratch/) guided me to the basic structure of a Hugo theme.
 

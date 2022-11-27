@@ -4,7 +4,7 @@
 </div>
 
 <p align="center">
-	一款基于<a href="https://github.com/ppoffice/hexo-theme-icarus/"> Hexo 主题 Icarus </a>的卡片样式制作的单栏 Hugo 主题
+	一款单栏 Hugo 主题（基于<a href="https://github.com/ppoffice/hexo-theme-icarus/"> Hexo 主题 Icarus </a>的卡片样式制作）
 </p>
 <p align="center">
 	<a href="https://github.com/airinghost/hugo-theme-icarus-lite/">English Intro</a>
@@ -42,18 +42,20 @@ https://icarus-lite.zhangjet.com/
 
 ### （1） Front Matter 区域
 
-设置 `hidden: true`（YAML格式）或 `hidden = true`（TOML格式，下同）以隐藏该文章于首页视图（使用了 index.html 模板的页面）中。
+设置 `hidden: true`（YAML格式）或 `hidden = true`（TOML格式，下同）可在首页视图（使用了 index.html 模板的页面）中隐藏该文章。
 
-设置 `date_hidden: true` 以隐藏该文章卡片左上角的发布时间及其结构所占用的空间。
+设置 `date_hidden: true` 可隐藏该文章的发布时间。
 
-设置 `read_more: true` 以添加“阅读更多”的按钮于文章卡片左下角。该按钮的文字可在站点配置文件中的 `Params` 区域进行全局修改。
+设置 `title_hidden: true` 可隐藏该文章的标题。
 
-设置 `read_more_txt: 自定义文字` 以覆盖上面提到的全局设置。
+设置 `read_more: true` 可在文章卡片左下角添加“阅读更多”的按钮。该按钮的文字可在站点配置文件中的 `Params` 区域进行全局修改。
 
-设置 `link_go: 网址` 和 `link_txt: 自定义文字` 以添加一按钮于文章卡片左下角，点击该按钮可在浏览器新标签页中打开你填入的网址。  
+设置 `read_more_txt: 自定义文字` 可覆盖上面提到的全局设置。
+
+设置 `link_go: 网址` 和 `link_txt: 自定义文字` 可在文章卡片左下角添加一按钮，点击该按钮可在浏览器新标签页中打开你填入的网址。  
 若不想在新标签页打开该链接，则可以设置 `link_same: true`。
 
-设置 `no_summary: true` 可以单独为当前文章取消摘要，使文章完整内容全部显示于卡片上（config 配置文件中有此项功能的全局设置）。
+设置 `no_summary: true` 可单独为当前文章取消摘要，使文章完整内容全部显示于卡片上（config 配置文件中有此项功能的全局设置）。
 
 ### （2） 正文区域
 
@@ -63,7 +65,7 @@ https://icarus-lite.zhangjet.com/
 
 ## 致谢
 
-感谢 PPOffice 为 Hexo 制作的如此美观的主题。
+感谢 PPOffice 制作的漂亮的 [Hexo 主题 Icarus](https://github.com/ppoffice/hexo-theme-icarus/)。
 
 感谢 Pedro Lopez 的教程《[Creating a Hugo Theme From Scratch](https://retrolog.io/blog/creating-a-hugo-theme-from-scratch/)》，该文指导我初步了解了 Hugo 主题模板的基本结构。
 
